@@ -1,0 +1,5 @@
+sentence-transformers
+chromadb
+web3
+python-dotenv
+supabase
