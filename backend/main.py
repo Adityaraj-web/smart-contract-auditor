@@ -3,6 +3,8 @@ import json
 import subprocess
 import tempfile
 from pathlib import Path
+from pydantic import BaseModel
+
 
 from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,8 +13,14 @@ from backend.retrieval import retrieve_context
 from backend.prompt_builder import build_audit_prompt
 from backend.ollama_client import generate_audit_report
 from backend.blockchain import submit_attestation
+from backend.chat import run_chat_turn
 
 app = FastAPI(title="Smart Contract Auditor")
+
+class ChatRequest(BaseModel):
+    report: dict
+    history: list[dict]
+    message: str
 
 app.add_middleware(
     CORSMiddleware,
@@ -21,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-SLITHER_TIMEOUT = 120
+SLITHER_TIMEOUT = 300
 ATTESTATION_THRESHOLD = {"Low", "Medium", "Informational", "Optimization"}
 
 
@@ -43,16 +51,24 @@ def _parse_slither_output(result_json: dict) -> list[dict]:
 
 
 def _run_slither(file_path: str) -> list[dict]:
-    result = subprocess.run(
-        ["slither", file_path, "--json", "-"],
-        capture_output=True,
-        text=True,
-        timeout=SLITHER_TIMEOUT,
-    )
+    try:
+        result = subprocess.run(
+            ["slither", file_path, "--json", "-"],
+            capture_output=True,
+            text=True,
+            timeout=SLITHER_TIMEOUT,
+        )
+    except subprocess.TimeoutExpired:
+        raise HTTPException(
+            status_code=503,
+            detail=f"Slither timed out after {SLITHER_TIMEOUT}s. Your system may be under memory pressure. Close other applications and retry."
+        )
+
     try:
         data = json.loads(result.stdout)
     except json.JSONDecodeError:
         return []
+
     return _parse_slither_output(data)
 
 def _compute_risk_level(findings: list[dict]) -> str:
@@ -166,6 +182,7 @@ async def audit_attest(file: UploadFile = File(...)):
 
     return {
         "attested": True,
+        "already_attested": attestation.get("already_attested", False),
         "tx_hash": attestation["tx_hash"],
         "contract_hash": attestation["contract_hash"],
         "report_hash": attestation["report_hash"],
@@ -173,3 +190,20 @@ async def audit_attest(file: UploadFile = File(...)):
         "risk_level": risk_level,
         "report": report_dict,
     }
+
+@app.post("/audit/chat")
+async def audit_chat(req: ChatRequest):
+    """
+    One turn of agentic follow-up chat about an audit report.
+    The frontend sends the full report + conversation history + new message.
+    Returns the assistant's response as plain text.
+    """
+    try:
+        reply = run_chat_turn(
+            report=req.report,
+            history=req.history,
+            user_message=req.message,
+        )
+        return {"reply": reply}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

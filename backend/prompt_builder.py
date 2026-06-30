@@ -3,7 +3,6 @@ import re
 
 def _clean_description(description: str) -> str:
     """Strip noisy temp file paths from Slither descriptions."""
-    # Replaces Windows temp paths like C:/Users/.../AppData/Local/Temp/tmpXXXXX/
     cleaned = re.sub(r"[A-Za-z]:/Users/[^/]+/AppData/Local/Temp/[^/]+/", "", description)
     return cleaned.strip()
 
@@ -36,34 +35,41 @@ Finding {i}:
 {chunk["text"]}
 """
 
-    prompt = f"""You are a smart contract security auditor. You will be given:
-1. A list of findings from Slither static analysis
-2. Relevant background context on vulnerability types
+    finding_count = len(findings)
 
-Your task is to produce a structured audit report in JSON format.
+    prompt = f"""You are a smart contract security auditor. Analyze the Slither static analysis findings below and produce a structured audit report.
 
-SLITHER FINDINGS:
+CRITICAL RULES:
+- The "findings" array in your response MUST contain EXACTLY {finding_count} entries — one per Slither finding listed below.
+- Do NOT add findings that are not in the Slither output.
+- Do NOT remove or merge any findings.
+- Use the background context ONLY to write better explanations and recommendations — it is reference material, not a source of additional findings.
+- The "overall_risk" field must reflect the highest impact level seen in the Slither findings.
+
+SLITHER FINDINGS ({finding_count} total):
 {findings_section}
 
-BACKGROUND CONTEXT FROM KNOWLEDGE BASE:
+BACKGROUND CONTEXT (reference only — do not treat as findings):
 {context_section}
 
 Respond with ONLY a valid JSON object in this exact structure, no explanation or markdown:
 {{
   "overall_risk": "High" | "Medium" | "Low" | "Informational",
-  "summary": "2-3 sentence plain English summary of the contract's security posture",
+  "summary": "2-3 sentence plain English summary of what Slither found in this contract",
   "findings": [
     {{
       "id": 1,
-      "detector": "detector-name",
-      "impact": "High" | "Medium" | "Low" | "Informational" | "Optimization",
-      "confidence": "High" | "Medium" | "Low",
-      "title": "Short human-readable title",
-      "explanation": "Plain English explanation of the vulnerability and its risk",
-      "recommendation": "Concrete fix recommendation"
+      "detector": "exact detector name from Slither finding",
+      "impact": "exact impact level from Slither finding",
+      "confidence": "exact confidence level from Slither finding",
+      "title": "short human-readable title for this specific finding",
+      "explanation": "plain English explanation of this vulnerability and its risk",
+      "recommendation": "concrete fix recommendation for this specific issue"
     }}
   ],
-  "rag_context_used": ["list of knowledge base titles used to inform this report"]
-}}"""
+  "rag_context_used": ["list of background context titles that informed your explanations"]
+}}
+
+Remember: exactly {finding_count} findings in the array, matching the {finding_count} Slither findings above in order."""
 
     return prompt

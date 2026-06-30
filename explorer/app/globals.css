@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
+/* ── Design tokens ─────────────────────────────────────────────── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --bg:       #07080d;
+  --surface:  #0c0e16;
+  --elevated: #141828;
+  --border:   #1b2235;
+  --text:     #c8d0e7;
+  --muted:    #4a5570;
+  --accent:   #38ef8a;
+  --link:     #38bdf8;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ── Scanline animation (used in FileUpload) ───────────────────── */
+@keyframes scanline {
+  from { top: -1px; }
+  to   { top: calc(100% + 1px); }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* ── Selection ─────────────────────────────────────────────────── */
+::selection {
+  background-color: #38ef8a1a;
+  color: #c8d0e7;
 }

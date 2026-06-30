@@ -1,133 +1,174 @@
-import { supabase } from "@/lib/supabase";
-import { Attestation } from "@/lib/types";
+"use client";
 
-const RISK_COLORS: Record<string, string> = {
-  Low: "bg-green-500/20 text-green-400 border border-green-500/30",
-  Medium: "bg-yellow-500/20 text-yellow-400 border border-yellow-500/30",
-  Informational: "bg-blue-500/20 text-blue-400 border border-blue-500/30",
-  Optimization: "bg-purple-500/20 text-purple-400 border border-purple-500/30",
-  High: "bg-red-500/20 text-red-400 border border-red-500/30",
-  Critical: "bg-red-700/20 text-red-300 border border-red-700/30",
-};
+import { useState, useEffect, useRef } from "react";
+import FileUpload from "@/components/FileUpload";
+import AuditReport from "@/components/AuditReport";
+import ChatInterface from "@/components/ChatInterface";
+import { runAttest } from "@/lib/api";
+import { AttestResult } from "@/lib/types";
 
-function truncate(str: string, start = 6, end = 4): string {
-  return `${str.slice(0, start)}...${str.slice(-end)}`;
-}
+const LOADING_STAGES = [
+  "running slither static analysis",
+  "retrieving vulnerability context via rag",
+  "generating audit report with local llm",
+  "finalising results",
+];
 
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleString("en-IN", {
-    dateStyle: "medium",
-    timeStyle: "short",
-  });
-}
+// Approximate time each stage takes before advancing the UI label.
+// Last stage has no timer — it stays until the response arrives.
+const STAGE_DURATIONS_MS = [15_000, 10_000, 50_000];
 
-async function getAttestations(): Promise<Attestation[]> {
-  const { data, error } = await supabase
-    .from("attestations")
-    .select("*")
-    .order("attested_at", { ascending: false });
+const API_URL = process.env.NEXT_PUBLIC_API_URL;
 
-  if (error) {
-    console.error("Supabase fetch error:", error);
-    return [];
+export default function AuditPage() {
+  const [isLoading, setIsLoading]   = useState(false);
+  const [stageIndex, setStageIndex] = useState(0);
+  const [result, setResult]         = useState<AttestResult | null>(null);
+  const [error, setError]           = useState<string | null>(null);
+  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function scheduleNextStage(index: number) {
+    const ms = STAGE_DURATIONS_MS[index];
+    if (ms === undefined) return;
+    timerRef.current = setTimeout(() => {
+      setStageIndex(index + 1);
+      scheduleNextStage(index + 1);
+    }, ms);
   }
-  return data ?? [];
-}
 
-export default async function Home() {
-  const attestations = await getAttestations();
+  function clearTimer() {
+    if (timerRef.current) clearTimeout(timerRef.current);
+  }
+
+  async function handleAudit(file: File) {
+    if (!API_URL) return;
+    setIsLoading(true);
+    setResult(null);
+    setError(null);
+    setStageIndex(0);
+    scheduleNextStage(0);
+
+    try {
+      const data = await runAttest(file);
+      setResult(data);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Audit failed.");
+    } finally {
+      clearTimer();
+      setIsLoading(false);
+    }
+  }
+
+  useEffect(() => () => clearTimer(), []);
 
   return (
-    <main className="min-h-screen bg-gray-950 text-gray-100 px-6 py-12">
-      <div className="max-w-6xl mx-auto">
+    <main className="min-h-screen bg-[#07080d] px-6 py-14">
+      <div className="max-w-5xl mx-auto">
 
-        <div className="mb-10">
-          <h1 className="text-3xl font-bold text-white mb-2">
-            Smart Contract Attestation Explorer
-          </h1>
-          <p className="text-gray-400 text-sm">
-            On-chain audit attestations issued on the Sepolia testnet.
-            Each record represents a contract that passed the AI-powered
-            security audit threshold.
-          </p>
-        </div>
-
-        <div className="mb-8 flex gap-6">
-          <div className="bg-gray-900 rounded-lg px-5 py-3 border border-gray-800">
-            <p className="text-xs text-gray-500 mb-1">Total Attestations</p>
-            <p className="text-2xl font-bold text-white">{attestations.length}</p>
-          </div>
-          <div className="bg-gray-900 rounded-lg px-5 py-3 border border-gray-800">
-            <p className="text-xs text-gray-500 mb-1">Network</p>
-            <p className="text-2xl font-bold text-blue-400">Sepolia</p>
-          </div>
-        </div>
-
-        {attestations.length === 0 ? (
-          <div className="text-center py-20 text-gray-600">
-            No attestations yet.
-          </div>
-        ) : (
-          <div className="overflow-x-auto rounded-xl border border-gray-800">
-            <table className="w-full text-sm">
-              <thead className="bg-gray-900 text-gray-400 text-xs uppercase tracking-wider">
-                <tr>
-                  <th className="px-5 py-4 text-left">Contract Hash</th>
-                  <th className="px-5 py-4 text-left">Risk Level</th>
-                  <th className="px-5 py-4 text-left">Auditor</th>
-                  <th className="px-5 py-4 text-left">Block</th>
-                  <th className="px-5 py-4 text-left">Attested At</th>
-                  <th className="px-5 py-4 text-left">Transaction</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-800">
-                {attestations.map((a) => (
-                  <tr
-                    key={a.id}
-                    className="bg-gray-950 hover:bg-gray-900 transition-colors"
-                  >
-                    <td className="px-5 py-4 font-mono text-gray-300">
-                      {truncate(a.contract_hash, 8, 6)}
-                    </td>
-                    <td className="px-5 py-4">
-                      <span
-                        className={`px-2.5 py-1 rounded-full text-xs font-medium ${
-                          RISK_COLORS[a.risk_level] ?? RISK_COLORS["Informational"]
-                        }`}
-                      >
-                        {a.risk_level}
-                      </span>
-                    </td>
-                    <td className="px-5 py-4 font-mono text-gray-400">
-                      {truncate(a.auditor_address, 6, 4)}
-                    </td>
-                    <td className="px-5 py-4 text-gray-400">
-                      {a.block_number.toLocaleString()}
-                    </td>
-                    <td className="px-5 py-4 text-gray-400">
-                      {formatDate(a.attested_at)}
-                    </td>
-                    <td className="px-5 py-4">
-                      
-                     <a href={`https://sepolia.etherscan.io/tx/0x${a.tx_hash}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-400 hover:text-blue-300 font-mono underline underline-offset-2"
-                     >
-                        {truncate(a.tx_hash, 6, 4)}
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+        {/* ── No-backend banner (Vercel deployment) ────────────── */}
+        {!API_URL && (
+          <div className="mb-10 border border-yellow-500/20 bg-yellow-500/5 rounded-lg px-5 py-4 flex gap-3 items-start">
+            <span className="font-mono text-yellow-500 shrink-0 mt-px">!</span>
+            <div className="space-y-1">
+              <p className="font-mono text-sm text-yellow-400">
+                audit unavailable in this environment
+              </p>
+              <p className="font-mono text-xs text-[#5d6d88] leading-relaxed">
+                The audit pipeline requires a local backend (FastAPI + Ollama).{" "}
+                
+                <a
+                  href="https://github.com/Adityaraj-web/smart-contract-auditor"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#38bdf8] hover:text-[#7dd3fc] transition-colors"
+                >
+                  see the readme for local setup →
+                </a>{" "}
+                The{" "}
+                <a href="/attestations" className="text-[#38bdf8] hover:text-[#7dd3fc] transition-colors">
+                  attestation explorer
+                </a>{" "}
+                is fully available.
+              </p>
+            </div>
           </div>
         )}
 
-        <p className="mt-8 text-center text-xs text-gray-700">
-          Attestations are issued by an AI-powered smart contract auditing
-          pipeline running Slither + RAG + Ollama locally.
-        </p>
+        {/* ── Page header ──────────────────────────────────────── */}
+        <div className="mb-10">
+          <p className="font-mono text-xs text-[#38ef8a] tracking-widest uppercase mb-3">
+            smart contract security
+          </p>
+          <h1 className="text-4xl font-bold text-white tracking-tight leading-none mb-4"
+          style={{ fontFamily: "var(--font-syne)" }}>
+            Solidity Auditor
+          </h1>
+          <p className="font-mono text-sm text-[#5d6d88] leading-relaxed max-w-xl">
+            Slither static analysis · on-chain attestation
+          </p>
+        </div>
+
+        {/* ── Upload zone ──────────────────────────────────────── */}
+        <FileUpload onAudit={handleAudit} isLoading={isLoading} />
+
+        {/* ── Loading — terminal log ────────────────────────────── */}
+        {isLoading && (
+          <div className="mt-6 bg-[#0c0e16] border border-[#1b2235] rounded-lg p-5 space-y-2.5">
+            {LOADING_STAGES.map((label, i) => {
+              const done    = i < stageIndex;
+              const current = i === stageIndex;
+
+              return (
+                <div key={i} className="flex items-center gap-3">
+                  {/* Status glyph */}
+                  {done && (
+                    <span className="font-mono text-xs text-[#38ef8a] w-3 shrink-0">✓</span>
+                  )}
+                  {current && (
+                    <span className="w-3 h-3 border border-[#38ef8a] border-t-transparent rounded-full animate-spin shrink-0" />
+                  )}
+                  {!done && !current && (
+                    <span className="font-mono text-xs text-[#2a3450] w-3 shrink-0">·</span>
+                  )}
+
+                  {/* Stage label */}
+                  <span
+                    className={`font-mono text-sm ${
+                      done    ? "text-[#3d4f6e] line-through decoration-[#2a3450]" :
+                      current ? "text-[#c8d0e7]" :
+                                "text-[#2a3450]"
+                    }`}
+                  >
+                    {label}
+                  </span>
+                </div>
+              );
+            })}
+
+            <p className="font-mono text-xs text-[#2a3450] pt-3 mt-1 border-t border-[#1b2235]">
+              full pipeline on cpu · typically 60–120s
+            </p>
+          </div>
+        )}
+
+        {/* ── Error ────────────────────────────────────────────── */}
+        {error && (
+          <div className="mt-6 bg-[#0c0e16] border border-red-500/20 rounded-lg px-5 py-4 flex gap-3 items-start">
+            <span className="font-mono text-red-500 shrink-0 mt-px">✗</span>
+            <div className="space-y-1">
+              <p className="font-mono text-sm text-red-400">audit failed</p>
+              <p className="font-mono text-xs text-[#5d6d88]">{error}</p>
+            </div>
+          </div>
+        )}
+
+        {/* ── Report + chat ─────────────────────────────────────── */}
+        {result && !isLoading && (
+          <>
+            <AuditReport result={result} />
+            <ChatInterface report={result.report} />
+          </>
+        )}
 
       </div>
     </main>
