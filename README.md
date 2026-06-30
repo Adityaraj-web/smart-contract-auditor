@@ -24,8 +24,6 @@ Every component — the LLM, the vector database, the blockchain network, the ba
 
 ## Screenshots
 
-*(See the "Screenshots to Capture" section below for exactly what to take and where each one goes.)*
-
 ### Audit Flow — Home Page
 ![Home page — file upload](./screenshots/01-home-upload.png)
 
