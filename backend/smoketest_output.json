@@ -1,0 +1,2761 @@
+{
+  "schema_version": "forensics-ingest-v1",
+  "tx_hash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+  "chain": "mainnet",
+  "transaction": {
+    "tx_hash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+    "chain": "mainnet",
+    "chain_id": 1,
+    "block_number": 16817996,
+    "block_timestamp": 1678697459,
+    "from_address": "0x5f259d0b76665c337c6104145894f4d1d2758b8c",
+    "to_address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+    "value_wei": 0,
+    "gas": 10000000,
+    "gas_price_wei": 56818948194,
+    "input_data": "0x863df8af",
+    "status": "0x1",
+    "gas_used": 1949994,
+    "logs": [
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000028171bca77440897b824ca71d1c56cac55b68a3",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99"
+        ],
+        "data": "0x00000000000000000000000000000000000000000018d0bf423c03d8de000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x0",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99",
+          "0x0000000000000000000000007d2768de32b0b80b7a3454c06bdac94a69ddc7a9"
+        ],
+        "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x00000000000000000000000000000000000000000018d0bf423c03d8de000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x00000000000000000000000027182842e098f60e3d576794a5bffb0777e025d3"
+        ],
+        "data": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x3",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0xab5515522df06610b9fbcbbbd8416018226aca39364adcf5524751fcfef40ae5",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000108b2a2c28029094000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x4",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x00000000000000000000000027182842e098f60e3d576794a5bffb0777e025d3"
+        ],
+        "data": "0x000000000000000000000000000000000000000000108b2a2c28029094000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x5",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x5548c837ab068cf56a2c2479df0882a4922fd203edb7517321831d95078c5f62",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000102fb62633ff6982b00fb4",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x6",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000102fb62633ff6982b00fb4",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x7",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000199f22612d75cbcbc855e100000000000000000000000000000000000000000002472116e586192b9aa4bd0000000000000000000000000000000000000000000028cfbc5525267b6d095800000000000000000000000000000000000000000017e8c47bab519cc78fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb00000000000000000000000000000000000000000000000001e018993c4006e000000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x8",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x7053340faeaa787c14d517bde5b7f4f7e1ebc393c59b246723598563d39af9ed",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x9",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x5548c837ab068cf56a2c2479df0882a4922fd203edb7517321831d95078c5f62",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a1dd1d7e07fa1f1ae09d0b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xa",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a1dd1d7e07fa1f1ae09d0b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xb",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x1c0971b8e0f7bb4e90bdbd87cfe682c36c383e2fc3dc4716ecc02771186293cc",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xc",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x312a5e5e1079f5dda4e95dbbd0b908b291fd5b992ef22073643ab691572c5b52",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xd",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xe",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000bb7c3fdf356feae6a8f2ec000000000000000000000000000000000000000000a7b6c6d0759fbef39aa4bd0000000000000000000000000000000000000000000028cfbc5525267b6d095800000000000000000000000000000000000000000017e8c47bab519cc78fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb0000000000000000000000000000000000000000000000007d6ac1384b85273700000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0xf",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0xd0a8bb1b09927c3a79ace14b798a3d0415da6d49dfec886c7105250818d44705",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000084595161401484a000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x10",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x00000000000000000000000027182842e098f60e3d576794a5bffb0777e025d3"
+        ],
+        "data": "0x000000000000000000000000000000000000000000084595161401484a000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x11",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x05f2eeda0e08e4b437f487c8d7d29b14537d15e3488170dc3de5dbdf8dac4684",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000084595161401484a000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x12",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x000000000000000000000000000000000000000000084595161401484a000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x13",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000bb7c3fdf356feae6a8f2ec0000000000000000000000000000000000000000009f7131ba619e76a99aa4bd0000000000000000000000000000000000000000000028cfbc5525267b6d0958000000000000000000000000000000000000000000202e5991bf52e5118fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb0000000000000000000000000000000000000000000000003f590875572880e400000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x14",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x7053340faeaa787c14d517bde5b7f4f7e1ebc393c59b246723598563d39af9ed",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x15",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x5548c837ab068cf56a2c2479df0882a4922fd203edb7517321831d95078c5f62",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a1dd1d7e07fa1f1ae09d0b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x16",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a1dd1d7e07fa1f1ae09d0b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x17",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x312a5e5e1079f5dda4e95dbbd0b908b291fd5b992ef22073643ab691572c5b52",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x18",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000a56fa5b99019a5c8000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x19",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000015d595d5d3d6a0a01898ff700000000000000000000000000000000000000000144e0d773f1b81c719aa4bd0000000000000000000000000000000000000000000028cfbc5525267b6d0958000000000000000000000000000000000000000000202e5991bf52e5118fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb000000000000000000000000000000000000000000000000af3b37f814ef86c500000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1a",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x1e090bfa40abafd9102cc09ab955b704519a275c8e78b2549f66c1b4439ce9d7",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x00000000000000000000000000000000000000000052b7d2dcc80cd2e4000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1b",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x9b1bfa7fa9ee420a16e124f794c35ac9f90472acc99140eb2f6447c714cad8eb",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x00000000000000000000000000000000000000000052b7d2dcc80cd2e4000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1c",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x00000000000000000000000000000000000000000052b7d2dcc80cd2e4000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1d",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000015d595d5d3d6a0a01898ff700000000000000000000000000000000000000000144e0d773f1b81c719aa4bd00000000000000000000000000000000000000000052e0a2991d31f95f6d0958000000000000000000000000000000000000000000202e5991bf52e5118fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb000000000000000000000000000000000000000000000000af3b37f814ef86c500000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1e",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x258be119f0bb402a931bfc28de6236747c14f2a56e87e9e7fe5151976b65e5a0",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f000000000000000000000000000000000000000000d680f253245755f0504ffe00000000000000000000000000000000000000000106df41a9cc11df113e57ff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x1f",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x1c0971b8e0f7bb4e90bdbd87cfe682c36c383e2fc3dc4716ecc02771186293cc",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x20",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x05f2eeda0e08e4b437f487c8d7d29b14537d15e3488170dc3de5dbdf8dac4684",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x000000000000000000000000000000000000000000d24c38de0f8cd6c371dfff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x21",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x000000000000000000000000000000000000000000d24c38de0f8cd6c371dfff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x22",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x312a5e5e1079f5dda4e95dbbd0b908b291fd5b992ef22073643ab691572c5b52",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x000000000000000000000000000000000000000000d24c38de0f8cd6c371dfff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x23",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x000000000000000000000000000000000000000000d24c38de0f8cd6c371dfff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x24",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x312a5e5e1079f5dda4e95dbbd0b908b291fd5b992ef22073643ab691572c5b52",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000434b97514ca7f2cde6fff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x25",
+        "removed": false
+      },
+      {
+        "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000434b97514ca7f2cde6fff",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x26",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000016176d6ae3940ad27bececd000000000000000000000000000000000000000001491590e906829b9e7914bc00000000000000000000000000000000000000000056fe1bea19089c85a2482e000000000000000000000000000000000000000000202e5991bf52e5118fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb000000000000000000000000000000000000000000000000b0bd76940efd87c200000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x27",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x9b1bfa7fa9ee420a16e124f794c35ac9f90472acc99140eb2f6447c714cad8eb",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72"
+        ],
+        "data": "0x00000000000000000000000000000000000000000101321e457be6d4d47149c8",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x28",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x5548c837ab068cf56a2c2479df0882a4922fd203edb7517321831d95078c5f62",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x00000000000000000000000000000000000000000101321e457be6d4d47149c8",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x29",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x00000000000000000000000000000000000000000101321e457be6d4d47149c8",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2a",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000000000000000000000016176d6ae3940ad27bececd000000000000000000000000000000000000000001491590e906829b9e7914bc00000000000000000000000000000000000000000056fe1bea19089c85a2482e000000000000000000000000000000000000000000202e5991bf52e5118fbbc600000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb000000000000000000000000000000000000000000000000b0bd76940efd87c200000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2b",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0xbba0f1d6fb8b9abe2bbc543b7c13d43faba91c6f78da4700381c94041ac7267d",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b",
+          "0x000000000000000000000000583c21631c48d442b5c0e605d624f54a0b366c72",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f000000000000000000000000000000000000000000d24c38de0f8cd6c371dfff00000000000000000000000000000000000000000106df471593700c744e57fe0000000000000000000000000000000000000000000000000a6c0318cf0467b600000000000000000000000000000000000000000000000003bbc17fb7e1984a00000000000000000000000000000000000000000000000002c68af0bb140000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2c",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x0afd74a2a0a78f6c15e41029f44995ee023fe49276f44a4b2b2cf674829362e6",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x000000000000000000000000000000000000000000202e5991bf52e5118fbbc6",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2d",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x00000000000000000000000027182842e098f60e3d576794a5bffb0777e025d3",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x000000000000000000000000000000000000000000202e5991bf52e5118fbbc6",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2e",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x9b1bfa7fa9ee420a16e124f794c35ac9f90472acc99140eb2f6447c714cad8eb",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b"
+        ],
+        "data": "0x0000000000000000000000000000000000000000001f7c73e864d03138bb070b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x2f",
+        "removed": false
+      },
+      {
+        "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b",
+          "0x0000000000000000000000000000000000000000000000000000000000000000"
+        ],
+        "data": "0x0000000000000000000000000000000000000000001f7c73e864d03138bb070b",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x30",
+        "removed": false
+      },
+      {
+        "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "topics": [
+          "0x2f2d732e1a7a15fe7a2e51d3482efe83ff791579cebc5e3cd12cd2064374bc7f",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x00000000000000000000000000000000000000000141fa62c5d4707bef03c7c2000000000000000000000000000000000000000001491590e906829b9e7914bc00000000000000000000000000000000000000000056fe1bea19089c85a2482e000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000364f1d1cb8a80f5d1ac93eb00000000000000000000000000000000000000000000000130d3367a9bf9965100000000000000000000000000000000000000000000000000000000640ee3f3",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x31",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000a0b3ee897f233f385e5d61086c32685257d4f12b",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99"
+        ],
+        "data": "0x000000000000000000000000000000000000000000202e5991bf52e5118fbbc6",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x32",
+        "removed": false
+      },
+      {
+        "address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x0000000000000000000000000000000000000000000000000000000000000000",
+          "0x000000000000000000000000464c71f6c2f760dda6093dcb91c24c39e5d6e18c"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000083a07f33a57627",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x33",
+        "removed": false
+      },
+      {
+        "address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+        "topics": [
+          "0x4c209b5fc8ad50758f13e2e1088ba56a560dff690a1c6fef26394f4c03821c4f",
+          "0x000000000000000000000000464c71f6c2f760dda6093dcb91c24c39e5d6e18c"
+        ],
+        "data": "0x0000000000000000000000000000000000000000000000000083a07f33a576270000000000000000000000000000000000000000037f5d8561737741ab4085f7",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x34",
+        "removed": false
+      },
+      {
+        "address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+        "topics": [
+          "0x804c9b842b2748a22bb64b345453a3de7ca54a6ca45ce00d415894979e22897a",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x000000000000000000000000000000000000000000019f0bbe8eec3cc20b371200000000000000000000000000000000000000000056dd4644adb929a1980f35000000000000000000000000000000000000000000084ae6cfcb58ad7b301e6a0000000000000000000000000000000000000000037f6b5d6964d28817c32759000000000000000000000000000000000000000003ab22ebfa41d960a3f2e78d",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x35",
+        "removed": false
+      },
+      {
+        "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "topics": [
+          "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99",
+          "0x000000000000000000000000028171bca77440897b824ca71d1c56cac55b68a3"
+        ],
+        "data": "0x00000000000000000000000000000000000000000018d676ee8157b758e00000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x36",
+        "removed": false
+      },
+      {
+        "address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+        "topics": [
+          "0x631042c832b07452973831137f2d73e395028b44b250dedc5abb0ee766e168ac",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99",
+          "0x000000000000000000000000ebc29199c817dc47ba12e3f86102564d640cbf99",
+          "0x0000000000000000000000006b175474e89094c44da98b954eedeac495271d0f"
+        ],
+        "data": "0x00000000000000000000000000000000000000000018d0bf423c03d8de0000000000000000000000000000000000000000000000000005b7ac4553de7ae000000000000000000000000000000000000000000000000000000000000000000000",
+        "blockNumber": "0x1009f4c",
+        "transactionHash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+        "transactionIndex": "0x0",
+        "blockHash": "0xde714b65354d54e684a95d80a1da7f668e8b2ee6ae8b5779f69ab9e04468b859",
+        "blockTimestamp": "0x640ee3f3",
+        "logIndex": "0x37",
+        "removed": false
+      }
+    ]
+  },
+  "internal_transactions": {
+    "internal_transactions": [
+      {
+        "from_address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "to_address": "",
+        "value_wei": 0,
+        "contract_address": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "input_data": "",
+        "call_type": "create",
+        "gas": 9236366,
+        "gas_used": 982878,
+        "is_error": false,
+        "err_code": null
+      },
+      {
+        "from_address": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "to_address": "",
+        "value_wei": 0,
+        "contract_address": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "input_data": "",
+        "call_type": "create",
+        "gas": 9060037,
+        "gas_used": 408243,
+        "is_error": false,
+        "err_code": null
+      }
+    ],
+    "limitation_note": "Only non-zero-value internal calls are captured. Zero-value internal calls (common in token-accounting-only exploit steps) are absent from this list and must be inferred from decoded event logs instead."
+  },
+  "contracts": {
+    "0x028171bca77440897b824ca71d1c56cac55b68a3": {
+      "address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+      "verified": true,
+      "contract_name": "InitializableImmutableAdminUpgradeabilityProxy",
+      "compiler_version": "v0.6.12+commit.27d51765",
+      "is_proxy": true,
+      "implementation_address": "0x7b2a3cf972c3193f26cdec6217d27379b6417bd0",
+      "source_code": "{{\r\n  \"language\": \"Solidity\",\r\n  \"sources\": {\r\n    \"contracts/protocol/libraries/aave-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './BaseImmutableAdminUpgradeabilityProxy.sol';\\nimport '../../../dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol';\\n\\n/**\\n * @title InitializableAdminUpgradeabilityProxy\\n * @dev Extends BaseAdminUpgradeabilityProxy with an initializer function\\n */\\ncontract InitializableImmutableAdminUpgradeabilityProxy is\\n  BaseImmutableAdminUpgradeabilityProxy,\\n  InitializableUpgradeabilityProxy\\n{\\n  constructor(address admin) public BaseImmutableAdminUpgradeabilityProxy(admin) {}\\n\\n  /**\\n   * @dev Only fall back when the sender is not the admin.\\n   */\\n  function _willFallback() internal override(BaseImmutableAdminUpgradeabilityProxy, Proxy) {\\n    BaseImmutableAdminUpgradeabilityProxy._willFallback();\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/protocol/libraries/aave-upgradeability/BaseImmutableAdminUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport '../../../dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol';\\n\\n/**\\n * @title BaseImmutableAdminUpgradeabilityProxy\\n * @author Aave, inspired by the OpenZeppelin upgradeability proxy pattern\\n * @dev This contract combines an upgradeability proxy with an authorization\\n * mechanism for administrative tasks. The admin role is stored in an immutable, which\\n * helps saving transactions costs\\n * All external functions in this contract must be guarded by the\\n * `ifAdmin` modifier. See ethereum/solidity#3864 for a Solidity\\n * feature proposal that would enable this to be done automatically.\\n */\\ncontract BaseImmutableAdminUpgradeabilityProxy is BaseUpgradeabilityProxy {\\n  address immutable ADMIN;\\n\\n  constructor(address admin) public {\\n    ADMIN = admin;\\n  }\\n\\n  modifier ifAdmin() {\\n    if (msg.sender == ADMIN) {\\n      _;\\n    } else {\\n      _fallback();\\n    }\\n  }\\n\\n  /**\\n   * @return The address of the proxy admin.\\n   */\\n  function admin() external ifAdmin returns (address) {\\n    return ADMIN;\\n  }\\n\\n  /**\\n   * @return The address of the implementation.\\n   */\\n  function implementation() external ifAdmin returns (address) {\\n    return _implementation();\\n  }\\n\\n  /**\\n   * @dev Upgrade the backing implementation of the proxy.\\n   * Only the admin can call this function.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function upgradeTo(address newImplementation) external ifAdmin {\\n    _upgradeTo(newImplementation);\\n  }\\n\\n  /**\\n   * @dev Upgrade the backing implementation of the proxy and call a function\\n   * on the new implementation.\\n   * This is useful to initialize the proxied contract.\\n   * @param newImplementation Address of the new implementation.\\n   * @param data Data to send as msg.data in the low level call.\\n   * It should include the signature and the parameters of the function to be called, as described in\\n   * https://solidity.readthedocs.io/en/v0.4.24/abi-spec.html#function-selector-and-argument-encoding.\\n   */\\n  function upgradeToAndCall(address newImplementation, bytes calldata data)\\n    external\\n    payable\\n    ifAdmin\\n  {\\n    _upgradeTo(newImplementation);\\n    (bool success, ) = newImplementation.delegatecall(data);\\n    require(success);\\n  }\\n\\n  /**\\n   * @dev Only fall back when the sender is not the admin.\\n   */\\n  function _willFallback() internal virtual override {\\n    require(msg.sender != ADMIN, 'Cannot call fallback function from the proxy admin');\\n    super._willFallback();\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './Proxy.sol';\\nimport '../contracts/Address.sol';\\n\\n/**\\n * @title BaseUpgradeabilityProxy\\n * @dev This contract implements a proxy that allows to change the\\n * implementation address to which it will delegate.\\n * Such a change is called an implementation upgrade.\\n */\\ncontract BaseUpgradeabilityProxy is Proxy {\\n  /**\\n   * @dev Emitted when the implementation is upgraded.\\n   * @param implementation Address of the new implementation.\\n   */\\n  event Upgraded(address indexed implementation);\\n\\n  /**\\n   * @dev Storage slot with the address of the current implementation.\\n   * This is the keccak-256 hash of \\\"eip1967.proxy.implementation\\\" subtracted by 1, and is\\n   * validated in the constructor.\\n   */\\n  bytes32 internal constant IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\\n\\n  /**\\n   * @dev Returns the current implementation.\\n   * @return impl Address of the current implementation\\n   */\\n  function _implementation() internal override view returns (address impl) {\\n    bytes32 slot = IMPLEMENTATION_SLOT;\\n    //solium-disable-next-line\\n    assembly {\\n      impl := sload(slot)\\n    }\\n  }\\n\\n  /**\\n   * @dev Upgrades the proxy to a new implementation.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function _upgradeTo(address newImplementation) internal {\\n    _setImplementation(newImplementation);\\n    emit Upgraded(newImplementation);\\n  }\\n\\n  /**\\n   * @dev Sets the implementation address of the proxy.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function _setImplementation(address newImplementation) internal {\\n    require(\\n      Address.isContract(newImplementation),\\n      'Cannot set a proxy implementation to a non-contract address'\\n    );\\n\\n    bytes32 slot = IMPLEMENTATION_SLOT;\\n\\n    //solium-disable-next-line\\n    assembly {\\n      sstore(slot, newImplementation)\\n    }\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/Proxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity ^0.6.0;\\n\\n/**\\n * @title Proxy\\n * @dev Implements delegation of calls to other contracts, with proper\\n * forwarding of return values and bubbling of failures.\\n * It defines a fallback function that delegates all calls to the address\\n * returned by the abstract _implementation() internal function.\\n */\\nabstract contract Proxy {\\n  /**\\n   * @dev Fallback function.\\n   * Implemented entirely in `_fallback`.\\n   */\\n  fallback() external payable {\\n    _fallback();\\n  }\\n\\n  /**\\n   * @return The Address of the implementation.\\n   */\\n  function _implementation() internal virtual view returns (address);\\n\\n  /**\\n   * @dev Delegates execution to an implementation contract.\\n   * This is a low level function that doesn't return to its internal call site.\\n   * It will return to the external caller whatever the implementation returns.\\n   * @param implementation Address to delegate.\\n   */\\n  function _delegate(address implementation) internal {\\n    //solium-disable-next-line\\n    assembly {\\n      // Copy msg.data. We take full control of memory in this inline assembly\\n      // block because it will not return to Solidity code. We overwrite the\\n      // Solidity scratch pad at memory position 0.\\n      calldatacopy(0, 0, calldatasize())\\n\\n      // Call the implementation.\\n      // out and outsize are 0 because we don't know the size yet.\\n      let result := delegatecall(gas(), implementation, 0, calldatasize(), 0, 0)\\n\\n      // Copy the returned data.\\n      returndatacopy(0, 0, returndatasize())\\n\\n      switch result\\n        // delegatecall returns 0 on error.\\n        case 0 {\\n          revert(0, returndatasize())\\n        }\\n        default {\\n          return(0, returndatasize())\\n        }\\n    }\\n  }\\n\\n  /**\\n   * @dev Function that is run as the first thing in the fallback function.\\n   * Can be redefined in derived contracts to add functionality.\\n   * Redefinitions must call super._willFallback().\\n   */\\n  function _willFallback() internal virtual {}\\n\\n  /**\\n   * @dev fallback implementation.\\n   * Extracted to enable manual triggering.\\n   */\\n  function _fallback() internal {\\n    _willFallback();\\n    _delegate(_implementation());\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/contracts/Address.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\n/**\\n * @dev Collection of functions related to the address type\\n */\\nlibrary Address {\\n  /**\\n   * @dev Returns true if `account` is a contract.\\n   *\\n   * [IMPORTANT]\\n   * ====\\n   * It is unsafe to assume that an address for which this function returns\\n   * false is an externally-owned account (EOA) and not a contract.\\n   *\\n   * Among others, `isContract` will return false for the following\\n   * types of addresses:\\n   *\\n   *  - an externally-owned account\\n   *  - a contract in construction\\n   *  - an address where a contract will be created\\n   *  - an address where a contract lived, but was destroyed\\n   * ====\\n   */\\n  function isContract(address account) internal view returns (bool) {\\n    // According to EIP-1052, 0x0 is the value returned for not-yet created accounts\\n    // and 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470 is returned\\n    // for accounts without code, i.e. `keccak256('')`\\n    bytes32 codehash;\\n    bytes32 accountHash = 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470;\\n    // solhint-disable-next-line no-inline-assembly\\n    assembly {\\n      codehash := extcodehash(account)\\n    }\\n    return (codehash != accountHash && codehash != 0x0);\\n  }\\n\\n  /**\\n   * @dev Replacement for Solidity's `transfer`: sends `amount` wei to\\n   * `recipient`, forwarding all available gas and reverting on errors.\\n   *\\n   * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost\\n   * of certain opcodes, possibly making contracts go over the 2300 gas limit\\n   * imposed by `transfer`, making them unable to receive funds via\\n   * `transfer`. {sendValue} removes this limitation.\\n   *\\n   * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].\\n   *\\n   * IMPORTANT: because control is transferred to `recipient`, care must be\\n   * taken to not create reentrancy vulnerabilities. Consider using\\n   * {ReentrancyGuard} or the\\n   * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].\\n   */\\n  function sendValue(address payable recipient, uint256 amount) internal {\\n    require(address(this).balance >= amount, 'Address: insufficient balance');\\n\\n    // solhint-disable-next-line avoid-low-level-calls, avoid-call-value\\n    (bool success, ) = recipient.call{value: amount}('');\\n    require(success, 'Address: unable to send value, recipient may have reverted');\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './BaseUpgradeabilityProxy.sol';\\n\\n/**\\n * @title InitializableUpgradeabilityProxy\\n * @dev Extends BaseUpgradeabilityProxy with an initializer for initializing\\n * implementation and init data.\\n */\\ncontract InitializableUpgradeabilityProxy is BaseUpgradeabilityProxy {\\n  /**\\n   * @dev Contract initializer.\\n   * @param _logic Address of the initial implementation.\\n   * @param _data Data to send as msg.data to the implementation to initialize the proxied contract.\\n   * It should include the signature and the parameters of the function to be called, as described in\\n   * https://solidity.readthedocs.io/en/v0.4.24/abi-spec.html#function-selector-and-argument-encoding.\\n   * This parameter is optional, if no data is given the initialization call to proxied contract will be skipped.\\n   */\\n  function initialize(address _logic, bytes memory _data) public payable {\\n    require(_implementation() == address(0));\\n    assert(IMPLEMENTATION_SLOT == bytes32(uint256(keccak256('eip1967.proxy.implementation')) - 1));\\n    _setImplementation(_logic);\\n    if (_data.length > 0) {\\n      (bool success, ) = _logic.delegatecall(_data);\\n      require(success);\\n    }\\n  }\\n}\\n\"\r\n    }\r\n  },\r\n  \"settings\": {\r\n    \"optimizer\": {\r\n      \"enabled\": true,\r\n      \"runs\": 200\r\n    },\r\n    \"evmVersion\": \"istanbul\",\r\n    \"outputSelection\": {\r\n      \"*\": {\r\n        \"*\": [\r\n          \"evm.bytecode\",\r\n          \"evm.deployedBytecode\",\r\n          \"abi\"\r\n        ]\r\n      }\r\n    },\r\n    \"libraries\": {}\r\n  }\r\n}}",
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "implementation",
+              "type": "address"
+            }
+          ],
+          "name": "Upgraded",
+          "type": "event"
+        },
+        {
+          "stateMutability": "payable",
+          "type": "fallback"
+        },
+        {
+          "inputs": [],
+          "name": "admin",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "implementation",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_logic",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "_data",
+              "type": "bytes"
+            }
+          ],
+          "name": "initialize",
+          "outputs": [],
+          "stateMutability": "payable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "newImplementation",
+              "type": "address"
+            }
+          ],
+          "name": "upgradeTo",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "newImplementation",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "name": "upgradeToAndCall",
+          "outputs": [],
+          "stateMutability": "payable",
+          "type": "function"
+        }
+      ]
+    },
+    "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686": {
+      "address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "verified": true,
+      "contract_name": "Proxy",
+      "compiler_version": "v0.8.10+commit.fc410830",
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": "{{\r\n  \"language\": \"Solidity\",\r\n  \"sources\": {\r\n    \"contracts/Proxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\ncontract Proxy {\\n    address immutable creator;\\n\\n    constructor() {\\n        creator = msg.sender;\\n    }\\n\\n    // External interface\\n\\n    fallback() external {\\n        address creator_ = creator;\\n\\n        if (msg.sender == creator_) {\\n            assembly {\\n                mstore(0, 0)\\n                calldatacopy(31, 0, calldatasize())\\n\\n                switch mload(0) // numTopics\\n                    case 0 { log0(32,  sub(calldatasize(), 1)) }\\n                    case 1 { log1(64,  sub(calldatasize(), 33),  mload(32)) }\\n                    case 2 { log2(96,  sub(calldatasize(), 65),  mload(32), mload(64)) }\\n                    case 3 { log3(128, sub(calldatasize(), 97),  mload(32), mload(64), mload(96)) }\\n                    case 4 { log4(160, sub(calldatasize(), 129), mload(32), mload(64), mload(96), mload(128)) }\\n                    default { revert(0, 0) }\\n\\n                return(0, 0)\\n            }\\n        } else {\\n            assembly {\\n                mstore(0, 0xe9c4a3ac00000000000000000000000000000000000000000000000000000000) // dispatch() selector\\n                calldatacopy(4, 0, calldatasize())\\n                mstore(add(4, calldatasize()), shl(96, caller()))\\n\\n                let result := call(gas(), creator_, 0, 0, add(24, calldatasize()), 0, 0)\\n                returndatacopy(0, 0, returndatasize())\\n\\n                switch result\\n                    case 0 { revert(0, returndatasize()) }\\n                    default { return(0, returndatasize()) }\\n            }\\n        }\\n    }\\n}\\n\"\r\n    }\r\n  },\r\n  \"settings\": {\r\n    \"optimizer\": {\r\n      \"enabled\": true,\r\n      \"runs\": 1000000\r\n    },\r\n    \"outputSelection\": {\r\n      \"*\": {\r\n        \"*\": [\r\n          \"evm.bytecode\",\r\n          \"evm.deployedBytecode\",\r\n          \"devdoc\",\r\n          \"userdoc\",\r\n          \"metadata\",\r\n          \"abi\"\r\n        ]\r\n      }\r\n    },\r\n    \"libraries\": {}\r\n  }\r\n}}",
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "stateMutability": "nonpayable",
+          "type": "fallback"
+        }
+      ]
+    },
+    "0x6b175474e89094c44da98b954eedeac495271d0f": {
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "verified": true,
+      "contract_name": "Dai",
+      "compiler_version": "v0.5.12+commit.7709ece9",
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": "// hevm: flattened sources of /nix/store/8xb41r4qd0cjb63wcrxf1qmfg88p0961-dss-6fd7de0/src/dai.sol\r\npragma solidity =0.5.12;\r\n\r\n////// /nix/store/8xb41r4qd0cjb63wcrxf1qmfg88p0961-dss-6fd7de0/src/lib.sol\r\n// This program is free software: you can redistribute it and/or modify\r\n// it under the terms of the GNU General Public License as published by\r\n// the Free Software Foundation, either version 3 of the License, or\r\n// (at your option) any later version.\r\n\r\n// This program is distributed in the hope that it will be useful,\r\n// but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n// GNU General Public License for more details.\r\n\r\n// You should have received a copy of the GNU General Public License\r\n// along with this program.  If not, see <http://www.gnu.org/licenses/>.\r\n\r\n/* pragma solidity 0.5.12; */\r\n\r\ncontract LibNote {\r\n    event LogNote(\r\n        bytes4   indexed  sig,\r\n        address  indexed  usr,\r\n        bytes32  indexed  arg1,\r\n        bytes32  indexed  arg2,\r\n        bytes             data\r\n    ) anonymous;\r\n\r\n    modifier note {\r\n        _;\r\n        assembly {\r\n            // log an 'anonymous' event with a constant 6 words of calldata\r\n            // and four indexed topics: selector, caller, arg1 and arg2\r\n            let mark := msize                         // end of memory ensures zero\r\n            mstore(0x40, add(mark, 288))              // update free memory pointer\r\n            mstore(mark, 0x20)                        // bytes type data offset\r\n            mstore(add(mark, 0x20), 224)              // bytes size (padded)\r\n            calldatacopy(add(mark, 0x40), 0, 224)     // bytes payload\r\n            log4(mark, 288,                           // calldata\r\n                 shl(224, shr(224, calldataload(0))), // msg.sig\r\n                 caller,                              // msg.sender\r\n                 calldataload(4),                     // arg1\r\n                 calldataload(36)                     // arg2\r\n                )\r\n        }\r\n    }\r\n}\r\n\r\n////// /nix/store/8xb41r4qd0cjb63wcrxf1qmfg88p0961-dss-6fd7de0/src/dai.sol\r\n// Copyright (C) 2017, 2018, 2019 dbrock, rain, mrchico\r\n\r\n// This program is free software: you can redistribute it and/or modify\r\n// it under the terms of the GNU Affero General Public License as published by\r\n// the Free Software Foundation, either version 3 of the License, or\r\n// (at your option) any later version.\r\n//\r\n// This program is distributed in the hope that it will be useful,\r\n// but WITHOUT ANY WARRANTY; without even the implied warranty of\r\n// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\r\n// GNU Affero General Public License for more details.\r\n//\r\n// You should have received a copy of the GNU Affero General Public License\r\n// along with this program.  If not, see <https://www.gnu.org/licenses/>.\r\n\r\n/* pragma solidity 0.5.12; */\r\n\r\n/* import \"./lib.sol\"; */\r\n\r\ncontract Dai is LibNote {\r\n    // --- Auth ---\r\n    mapping (address => uint) public wards;\r\n    function rely(address guy) external note auth { wards[guy] = 1; }\r\n    function deny(address guy) external note auth { wards[guy] = 0; }\r\n    modifier auth {\r\n        require(wards[msg.sender] == 1, \"Dai/not-authorized\");\r\n        _;\r\n    }\r\n\r\n    // --- ERC20 Data ---\r\n    string  public constant name     = \"Dai Stablecoin\";\r\n    string  public constant symbol   = \"DAI\";\r\n    string  public constant version  = \"1\";\r\n    uint8   public constant decimals = 18;\r\n    uint256 public totalSupply;\r\n\r\n    mapping (address => uint)                      public balanceOf;\r\n    mapping (address => mapping (address => uint)) public allowance;\r\n    mapping (address => uint)                      public nonces;\r\n\r\n    event Approval(address indexed src, address indexed guy, uint wad);\r\n    event Transfer(address indexed src, address indexed dst, uint wad);\r\n\r\n    // --- Math ---\r\n    function add(uint x, uint y) internal pure returns (uint z) {\r\n        require((z = x + y) >= x);\r\n    }\r\n    function sub(uint x, uint y) internal pure returns (uint z) {\r\n        require((z = x - y) <= x);\r\n    }\r\n\r\n    // --- EIP712 niceties ---\r\n    bytes32 public DOMAIN_SEPARATOR;\r\n    // bytes32 public constant PERMIT_TYPEHASH = keccak256(\"Permit(address holder,address spender,uint256 nonce,uint256 expiry,bool allowed)\");\r\n    bytes32 public constant PERMIT_TYPEHASH = 0xea2aa0a1be11a07ed86d755c93467f4f82362b452371d1ba94d1715123511acb;\r\n\r\n    constructor(uint256 chainId_) public {\r\n        wards[msg.sender] = 1;\r\n        DOMAIN_SEPARATOR = keccak256(abi.encode(\r\n            keccak256(\"EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)\"),\r\n            keccak256(bytes(name)),\r\n            keccak256(bytes(version)),\r\n            chainId_,\r\n            address(this)\r\n        ));\r\n    }\r\n\r\n    // --- Token ---\r\n    function transfer(address dst, uint wad) external returns (bool) {\r\n        return transferFrom(msg.sender, dst, wad);\r\n    }\r\n    function transferFrom(address src, address dst, uint wad)\r\n        public returns (bool)\r\n    {\r\n        require(balanceOf[src] >= wad, \"Dai/insufficient-balance\");\r\n        if (src != msg.sender && allowance[src][msg.sender] != uint(-1)) {\r\n            require(allowance[src][msg.sender] >= wad, \"Dai/insufficient-allowance\");\r\n            allowance[src][msg.sender] = sub(allowance[src][msg.sender], wad);\r\n        }\r\n        balanceOf[src] = sub(balanceOf[src], wad);\r\n        balanceOf[dst] = add(balanceOf[dst], wad);\r\n        emit Transfer(src, dst, wad);\r\n        return true;\r\n    }\r\n    function mint(address usr, uint wad) external auth {\r\n        balanceOf[usr] = add(balanceOf[usr], wad);\r\n        totalSupply    = add(totalSupply, wad);\r\n        emit Transfer(address(0), usr, wad);\r\n    }\r\n    function burn(address usr, uint wad) external {\r\n        require(balanceOf[usr] >= wad, \"Dai/insufficient-balance\");\r\n        if (usr != msg.sender && allowance[usr][msg.sender] != uint(-1)) {\r\n            require(allowance[usr][msg.sender] >= wad, \"Dai/insufficient-allowance\");\r\n            allowance[usr][msg.sender] = sub(allowance[usr][msg.sender], wad);\r\n        }\r\n        balanceOf[usr] = sub(balanceOf[usr], wad);\r\n        totalSupply    = sub(totalSupply, wad);\r\n        emit Transfer(usr, address(0), wad);\r\n    }\r\n    function approve(address usr, uint wad) external returns (bool) {\r\n        allowance[msg.sender][usr] = wad;\r\n        emit Approval(msg.sender, usr, wad);\r\n        return true;\r\n    }\r\n\r\n    // --- Alias ---\r\n    function push(address usr, uint wad) external {\r\n        transferFrom(msg.sender, usr, wad);\r\n    }\r\n    function pull(address usr, uint wad) external {\r\n        transferFrom(usr, msg.sender, wad);\r\n    }\r\n    function move(address src, address dst, uint wad) external {\r\n        transferFrom(src, dst, wad);\r\n    }\r\n\r\n    // --- Approve by signature ---\r\n    function permit(address holder, address spender, uint256 nonce, uint256 expiry,\r\n                    bool allowed, uint8 v, bytes32 r, bytes32 s) external\r\n    {\r\n        bytes32 digest =\r\n            keccak256(abi.encodePacked(\r\n                \"\\x19\\x01\",\r\n                DOMAIN_SEPARATOR,\r\n                keccak256(abi.encode(PERMIT_TYPEHASH,\r\n                                     holder,\r\n                                     spender,\r\n                                     nonce,\r\n                                     expiry,\r\n                                     allowed))\r\n        ));\r\n\r\n        require(holder != address(0), \"Dai/invalid-address-0\");\r\n        require(holder == ecrecover(digest, v, r, s), \"Dai/invalid-permit\");\r\n        require(expiry == 0 || now <= expiry, \"Dai/permit-expired\");\r\n        require(nonce == nonces[holder]++, \"Dai/invalid-nonce\");\r\n        uint wad = allowed ? uint(-1) : 0;\r\n        allowance[holder][spender] = wad;\r\n        emit Approval(holder, spender, wad);\r\n    }\r\n}",
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "chainId_",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "src",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "guy",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "Approval",
+          "type": "event"
+        },
+        {
+          "anonymous": true,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "bytes4",
+              "name": "sig",
+              "type": "bytes4"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "bytes32",
+              "name": "arg1",
+              "type": "bytes32"
+            },
+            {
+              "indexed": true,
+              "internalType": "bytes32",
+              "name": "arg2",
+              "type": "bytes32"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "name": "LogNote",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "src",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "dst",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "Transfer",
+          "type": "event"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "DOMAIN_SEPARATOR",
+          "outputs": [
+            {
+              "internalType": "bytes32",
+              "name": "",
+              "type": "bytes32"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "PERMIT_TYPEHASH",
+          "outputs": [
+            {
+              "internalType": "bytes32",
+              "name": "",
+              "type": "bytes32"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "name": "allowance",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "approve",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "name": "balanceOf",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "burn",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "decimals",
+          "outputs": [
+            {
+              "internalType": "uint8",
+              "name": "",
+              "type": "uint8"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "guy",
+              "type": "address"
+            }
+          ],
+          "name": "deny",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "mint",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "src",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "dst",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "move",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "name",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "name": "nonces",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "holder",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "spender",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "nonce",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "expiry",
+              "type": "uint256"
+            },
+            {
+              "internalType": "bool",
+              "name": "allowed",
+              "type": "bool"
+            },
+            {
+              "internalType": "uint8",
+              "name": "v",
+              "type": "uint8"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "r",
+              "type": "bytes32"
+            },
+            {
+              "internalType": "bytes32",
+              "name": "s",
+              "type": "bytes32"
+            }
+          ],
+          "name": "permit",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "pull",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "usr",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "push",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "guy",
+              "type": "address"
+            }
+          ],
+          "name": "rely",
+          "outputs": [],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "symbol",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "totalSupply",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "dst",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "transfer",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": false,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "src",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "dst",
+              "type": "address"
+            },
+            {
+              "internalType": "uint256",
+              "name": "wad",
+              "type": "uint256"
+            }
+          ],
+          "name": "transferFrom",
+          "outputs": [
+            {
+              "internalType": "bool",
+              "name": "",
+              "type": "bool"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [],
+          "name": "version",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "constant": true,
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "name": "wards",
+          "outputs": [
+            {
+              "internalType": "uint256",
+              "name": "",
+              "type": "uint256"
+            }
+          ],
+          "payable": false,
+          "stateMutability": "view",
+          "type": "function"
+        }
+      ]
+    },
+    "0x5f259d0b76665c337c6104145894f4d1d2758b8c": {
+      "address": "0x5f259d0b76665c337c6104145894f4d1d2758b8c",
+      "verified": false,
+      "contract_name": null,
+      "compiler_version": null,
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": null,
+      "abi": null
+    },
+    "0xe025e3ca2be02316033184551d4d3aa22024d9dc": {
+      "address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "verified": true,
+      "contract_name": "Proxy",
+      "compiler_version": "v0.8.10+commit.fc410830",
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": "{{\r\n  \"language\": \"Solidity\",\r\n  \"sources\": {\r\n    \"contracts/Proxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\ncontract Proxy {\\n    address immutable creator;\\n\\n    constructor() {\\n        creator = msg.sender;\\n    }\\n\\n    // External interface\\n\\n    fallback() external {\\n        address creator_ = creator;\\n\\n        if (msg.sender == creator_) {\\n            assembly {\\n                mstore(0, 0)\\n                calldatacopy(31, 0, calldatasize())\\n\\n                switch mload(0) // numTopics\\n                    case 0 { log0(32,  sub(calldatasize(), 1)) }\\n                    case 1 { log1(64,  sub(calldatasize(), 33),  mload(32)) }\\n                    case 2 { log2(96,  sub(calldatasize(), 65),  mload(32), mload(64)) }\\n                    case 3 { log3(128, sub(calldatasize(), 97),  mload(32), mload(64), mload(96)) }\\n                    case 4 { log4(160, sub(calldatasize(), 129), mload(32), mload(64), mload(96), mload(128)) }\\n                    default { revert(0, 0) }\\n\\n                return(0, 0)\\n            }\\n        } else {\\n            assembly {\\n                mstore(0, 0xe9c4a3ac00000000000000000000000000000000000000000000000000000000) // dispatch() selector\\n                calldatacopy(4, 0, calldatasize())\\n                mstore(add(4, calldatasize()), shl(96, caller()))\\n\\n                let result := call(gas(), creator_, 0, 0, add(24, calldatasize()), 0, 0)\\n                returndatacopy(0, 0, returndatasize())\\n\\n                switch result\\n                    case 0 { revert(0, returndatasize()) }\\n                    default { return(0, returndatasize()) }\\n            }\\n        }\\n    }\\n}\\n\"\r\n    }\r\n  },\r\n  \"settings\": {\r\n    \"optimizer\": {\r\n      \"enabled\": true,\r\n      \"runs\": 1000000\r\n    },\r\n    \"outputSelection\": {\r\n      \"*\": {\r\n        \"*\": [\r\n          \"evm.bytecode\",\r\n          \"evm.deployedBytecode\",\r\n          \"devdoc\",\r\n          \"userdoc\",\r\n          \"metadata\",\r\n          \"abi\"\r\n        ]\r\n      }\r\n    },\r\n    \"libraries\": {}\r\n  }\r\n}}",
+      "abi": [
+        {
+          "inputs": [],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "stateMutability": "nonpayable",
+          "type": "fallback"
+        }
+      ]
+    },
+    "0xa0b3ee897f233f385e5d61086c32685257d4f12b": {
+      "address": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+      "verified": false,
+      "contract_name": null,
+      "compiler_version": null,
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": null,
+      "abi": null
+    },
+    "0xebc29199c817dc47ba12e3f86102564d640cbf99": {
+      "address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+      "verified": false,
+      "contract_name": null,
+      "compiler_version": null,
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": null,
+      "abi": null
+    },
+    "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9": {
+      "address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+      "verified": true,
+      "contract_name": "InitializableImmutableAdminUpgradeabilityProxy",
+      "compiler_version": "v0.6.12+commit.27d51765",
+      "is_proxy": true,
+      "implementation_address": "0x02d84abd89ee9db409572f19b6e1596c301f3c81",
+      "source_code": "{{\r\n  \"language\": \"Solidity\",\r\n  \"sources\": {\r\n    \"contracts/protocol/libraries/aave-upgradeability/InitializableImmutableAdminUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './BaseImmutableAdminUpgradeabilityProxy.sol';\\nimport '../../../dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol';\\n\\n/**\\n * @title InitializableAdminUpgradeabilityProxy\\n * @dev Extends BaseAdminUpgradeabilityProxy with an initializer function\\n */\\ncontract InitializableImmutableAdminUpgradeabilityProxy is\\n  BaseImmutableAdminUpgradeabilityProxy,\\n  InitializableUpgradeabilityProxy\\n{\\n  constructor(address admin) public BaseImmutableAdminUpgradeabilityProxy(admin) {}\\n\\n  /**\\n   * @dev Only fall back when the sender is not the admin.\\n   */\\n  function _willFallback() internal override(BaseImmutableAdminUpgradeabilityProxy, Proxy) {\\n    BaseImmutableAdminUpgradeabilityProxy._willFallback();\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/protocol/libraries/aave-upgradeability/BaseImmutableAdminUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport '../../../dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol';\\n\\n/**\\n * @title BaseImmutableAdminUpgradeabilityProxy\\n * @author Aave, inspired by the OpenZeppelin upgradeability proxy pattern\\n * @dev This contract combines an upgradeability proxy with an authorization\\n * mechanism for administrative tasks. The admin role is stored in an immutable, which\\n * helps saving transactions costs\\n * All external functions in this contract must be guarded by the\\n * `ifAdmin` modifier. See ethereum/solidity#3864 for a Solidity\\n * feature proposal that would enable this to be done automatically.\\n */\\ncontract BaseImmutableAdminUpgradeabilityProxy is BaseUpgradeabilityProxy {\\n  address immutable ADMIN;\\n\\n  constructor(address admin) public {\\n    ADMIN = admin;\\n  }\\n\\n  modifier ifAdmin() {\\n    if (msg.sender == ADMIN) {\\n      _;\\n    } else {\\n      _fallback();\\n    }\\n  }\\n\\n  /**\\n   * @return The address of the proxy admin.\\n   */\\n  function admin() external ifAdmin returns (address) {\\n    return ADMIN;\\n  }\\n\\n  /**\\n   * @return The address of the implementation.\\n   */\\n  function implementation() external ifAdmin returns (address) {\\n    return _implementation();\\n  }\\n\\n  /**\\n   * @dev Upgrade the backing implementation of the proxy.\\n   * Only the admin can call this function.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function upgradeTo(address newImplementation) external ifAdmin {\\n    _upgradeTo(newImplementation);\\n  }\\n\\n  /**\\n   * @dev Upgrade the backing implementation of the proxy and call a function\\n   * on the new implementation.\\n   * This is useful to initialize the proxied contract.\\n   * @param newImplementation Address of the new implementation.\\n   * @param data Data to send as msg.data in the low level call.\\n   * It should include the signature and the parameters of the function to be called, as described in\\n   * https://solidity.readthedocs.io/en/v0.4.24/abi-spec.html#function-selector-and-argument-encoding.\\n   */\\n  function upgradeToAndCall(address newImplementation, bytes calldata data)\\n    external\\n    payable\\n    ifAdmin\\n  {\\n    _upgradeTo(newImplementation);\\n    (bool success, ) = newImplementation.delegatecall(data);\\n    require(success);\\n  }\\n\\n  /**\\n   * @dev Only fall back when the sender is not the admin.\\n   */\\n  function _willFallback() internal virtual override {\\n    require(msg.sender != ADMIN, 'Cannot call fallback function from the proxy admin');\\n    super._willFallback();\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/BaseUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './Proxy.sol';\\nimport '../contracts/Address.sol';\\n\\n/**\\n * @title BaseUpgradeabilityProxy\\n * @dev This contract implements a proxy that allows to change the\\n * implementation address to which it will delegate.\\n * Such a change is called an implementation upgrade.\\n */\\ncontract BaseUpgradeabilityProxy is Proxy {\\n  /**\\n   * @dev Emitted when the implementation is upgraded.\\n   * @param implementation Address of the new implementation.\\n   */\\n  event Upgraded(address indexed implementation);\\n\\n  /**\\n   * @dev Storage slot with the address of the current implementation.\\n   * This is the keccak-256 hash of \\\"eip1967.proxy.implementation\\\" subtracted by 1, and is\\n   * validated in the constructor.\\n   */\\n  bytes32 internal constant IMPLEMENTATION_SLOT = 0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc;\\n\\n  /**\\n   * @dev Returns the current implementation.\\n   * @return impl Address of the current implementation\\n   */\\n  function _implementation() internal override view returns (address impl) {\\n    bytes32 slot = IMPLEMENTATION_SLOT;\\n    //solium-disable-next-line\\n    assembly {\\n      impl := sload(slot)\\n    }\\n  }\\n\\n  /**\\n   * @dev Upgrades the proxy to a new implementation.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function _upgradeTo(address newImplementation) internal {\\n    _setImplementation(newImplementation);\\n    emit Upgraded(newImplementation);\\n  }\\n\\n  /**\\n   * @dev Sets the implementation address of the proxy.\\n   * @param newImplementation Address of the new implementation.\\n   */\\n  function _setImplementation(address newImplementation) internal {\\n    require(\\n      Address.isContract(newImplementation),\\n      'Cannot set a proxy implementation to a non-contract address'\\n    );\\n\\n    bytes32 slot = IMPLEMENTATION_SLOT;\\n\\n    //solium-disable-next-line\\n    assembly {\\n      sstore(slot, newImplementation)\\n    }\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/Proxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity ^0.6.0;\\n\\n/**\\n * @title Proxy\\n * @dev Implements delegation of calls to other contracts, with proper\\n * forwarding of return values and bubbling of failures.\\n * It defines a fallback function that delegates all calls to the address\\n * returned by the abstract _implementation() internal function.\\n */\\nabstract contract Proxy {\\n  /**\\n   * @dev Fallback function.\\n   * Implemented entirely in `_fallback`.\\n   */\\n  fallback() external payable {\\n    _fallback();\\n  }\\n\\n  /**\\n   * @return The Address of the implementation.\\n   */\\n  function _implementation() internal virtual view returns (address);\\n\\n  /**\\n   * @dev Delegates execution to an implementation contract.\\n   * This is a low level function that doesn't return to its internal call site.\\n   * It will return to the external caller whatever the implementation returns.\\n   * @param implementation Address to delegate.\\n   */\\n  function _delegate(address implementation) internal {\\n    //solium-disable-next-line\\n    assembly {\\n      // Copy msg.data. We take full control of memory in this inline assembly\\n      // block because it will not return to Solidity code. We overwrite the\\n      // Solidity scratch pad at memory position 0.\\n      calldatacopy(0, 0, calldatasize())\\n\\n      // Call the implementation.\\n      // out and outsize are 0 because we don't know the size yet.\\n      let result := delegatecall(gas(), implementation, 0, calldatasize(), 0, 0)\\n\\n      // Copy the returned data.\\n      returndatacopy(0, 0, returndatasize())\\n\\n      switch result\\n        // delegatecall returns 0 on error.\\n        case 0 {\\n          revert(0, returndatasize())\\n        }\\n        default {\\n          return(0, returndatasize())\\n        }\\n    }\\n  }\\n\\n  /**\\n   * @dev Function that is run as the first thing in the fallback function.\\n   * Can be redefined in derived contracts to add functionality.\\n   * Redefinitions must call super._willFallback().\\n   */\\n  function _willFallback() internal virtual {}\\n\\n  /**\\n   * @dev fallback implementation.\\n   * Extracted to enable manual triggering.\\n   */\\n  function _fallback() internal {\\n    _willFallback();\\n    _delegate(_implementation());\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/contracts/Address.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\n/**\\n * @dev Collection of functions related to the address type\\n */\\nlibrary Address {\\n  /**\\n   * @dev Returns true if `account` is a contract.\\n   *\\n   * [IMPORTANT]\\n   * ====\\n   * It is unsafe to assume that an address for which this function returns\\n   * false is an externally-owned account (EOA) and not a contract.\\n   *\\n   * Among others, `isContract` will return false for the following\\n   * types of addresses:\\n   *\\n   *  - an externally-owned account\\n   *  - a contract in construction\\n   *  - an address where a contract will be created\\n   *  - an address where a contract lived, but was destroyed\\n   * ====\\n   */\\n  function isContract(address account) internal view returns (bool) {\\n    // According to EIP-1052, 0x0 is the value returned for not-yet created accounts\\n    // and 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470 is returned\\n    // for accounts without code, i.e. `keccak256('')`\\n    bytes32 codehash;\\n    bytes32 accountHash = 0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470;\\n    // solhint-disable-next-line no-inline-assembly\\n    assembly {\\n      codehash := extcodehash(account)\\n    }\\n    return (codehash != accountHash && codehash != 0x0);\\n  }\\n\\n  /**\\n   * @dev Replacement for Solidity's `transfer`: sends `amount` wei to\\n   * `recipient`, forwarding all available gas and reverting on errors.\\n   *\\n   * https://eips.ethereum.org/EIPS/eip-1884[EIP1884] increases the gas cost\\n   * of certain opcodes, possibly making contracts go over the 2300 gas limit\\n   * imposed by `transfer`, making them unable to receive funds via\\n   * `transfer`. {sendValue} removes this limitation.\\n   *\\n   * https://diligence.consensys.net/posts/2019/09/stop-using-soliditys-transfer-now/[Learn more].\\n   *\\n   * IMPORTANT: because control is transferred to `recipient`, care must be\\n   * taken to not create reentrancy vulnerabilities. Consider using\\n   * {ReentrancyGuard} or the\\n   * https://solidity.readthedocs.io/en/v0.5.11/security-considerations.html#use-the-checks-effects-interactions-pattern[checks-effects-interactions pattern].\\n   */\\n  function sendValue(address payable recipient, uint256 amount) internal {\\n    require(address(this).balance >= amount, 'Address: insufficient balance');\\n\\n    // solhint-disable-next-line avoid-low-level-calls, avoid-call-value\\n    (bool success, ) = recipient.call{value: amount}('');\\n    require(success, 'Address: unable to send value, recipient may have reverted');\\n  }\\n}\\n\"\r\n    },\r\n    \"contracts/dependencies/openzeppelin/upgradeability/InitializableUpgradeabilityProxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: agpl-3.0\\npragma solidity 0.6.12;\\n\\nimport './BaseUpgradeabilityProxy.sol';\\n\\n/**\\n * @title InitializableUpgradeabilityProxy\\n * @dev Extends BaseUpgradeabilityProxy with an initializer for initializing\\n * implementation and init data.\\n */\\ncontract InitializableUpgradeabilityProxy is BaseUpgradeabilityProxy {\\n  /**\\n   * @dev Contract initializer.\\n   * @param _logic Address of the initial implementation.\\n   * @param _data Data to send as msg.data to the implementation to initialize the proxied contract.\\n   * It should include the signature and the parameters of the function to be called, as described in\\n   * https://solidity.readthedocs.io/en/v0.4.24/abi-spec.html#function-selector-and-argument-encoding.\\n   * This parameter is optional, if no data is given the initialization call to proxied contract will be skipped.\\n   */\\n  function initialize(address _logic, bytes memory _data) public payable {\\n    require(_implementation() == address(0));\\n    assert(IMPLEMENTATION_SLOT == bytes32(uint256(keccak256('eip1967.proxy.implementation')) - 1));\\n    _setImplementation(_logic);\\n    if (_data.length > 0) {\\n      (bool success, ) = _logic.delegatecall(_data);\\n      require(success);\\n    }\\n  }\\n}\\n\"\r\n    }\r\n  },\r\n  \"settings\": {\r\n    \"optimizer\": {\r\n      \"enabled\": true,\r\n      \"runs\": 200\r\n    },\r\n    \"evmVersion\": \"istanbul\",\r\n    \"outputSelection\": {\r\n      \"*\": {\r\n        \"*\": [\r\n          \"evm.bytecode\",\r\n          \"evm.deployedBytecode\",\r\n          \"abi\"\r\n        ]\r\n      }\r\n    },\r\n    \"libraries\": {}\r\n  }\r\n}}",
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "implementation",
+              "type": "address"
+            }
+          ],
+          "name": "Upgraded",
+          "type": "event"
+        },
+        {
+          "stateMutability": "payable",
+          "type": "fallback"
+        },
+        {
+          "inputs": [],
+          "name": "admin",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "implementation",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "_logic",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "_data",
+              "type": "bytes"
+            }
+          ],
+          "name": "initialize",
+          "outputs": [],
+          "stateMutability": "payable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "newImplementation",
+              "type": "address"
+            }
+          ],
+          "name": "upgradeTo",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "newImplementation",
+              "type": "address"
+            },
+            {
+              "internalType": "bytes",
+              "name": "data",
+              "type": "bytes"
+            }
+          ],
+          "name": "upgradeToAndCall",
+          "outputs": [],
+          "stateMutability": "payable",
+          "type": "function"
+        }
+      ]
+    },
+    "0x583c21631c48d442b5c0e605d624f54a0b366c72": {
+      "address": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+      "verified": false,
+      "contract_name": null,
+      "compiler_version": null,
+      "is_proxy": false,
+      "implementation_address": null,
+      "source_code": null,
+      "abi": null
+    },
+    "0x27182842e098f60e3d576794a5bffb0777e025d3": {
+      "address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "verified": true,
+      "contract_name": "Euler",
+      "compiler_version": "v0.8.10+commit.fc410830",
+      "is_proxy": true,
+      "implementation_address": "0xec29b4c2cacae5df1a491f084e5ec7c62a7edab5",
+      "source_code": "{{\r\n  \"language\": \"Solidity\",\r\n  \"sources\": {\r\n    \"contracts/Euler.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Base.sol\\\";\\n\\n\\n/// @notice Main storage contract for the Euler system\\ncontract Euler is Base {\\n    constructor(address admin, address installerModule) {\\n        emit Genesis();\\n\\n        reentrancyLock = REENTRANCYLOCK__UNLOCKED;\\n        upgradeAdmin = admin;\\n        governorAdmin = admin;\\n\\n        moduleLookup[MODULEID__INSTALLER] = installerModule;\\n        address installerProxy = _createProxy(MODULEID__INSTALLER);\\n        trustedSenders[installerProxy].moduleImpl = installerModule;\\n    }\\n\\n    string public constant name = \\\"Euler Protocol\\\";\\n\\n    /// @notice Lookup the current implementation contract for a module\\n    /// @param moduleId Fixed constant that refers to a module type (ie MODULEID__ETOKEN)\\n    /// @return An internal address specifies the module's implementation code\\n    function moduleIdToImplementation(uint moduleId) external view returns (address) {\\n        return moduleLookup[moduleId];\\n    }\\n\\n    /// @notice Lookup a proxy that can be used to interact with a module (only valid for single-proxy modules)\\n    /// @param moduleId Fixed constant that refers to a module type (ie MODULEID__MARKETS)\\n    /// @return An address that should be cast to the appropriate module interface, ie IEulerMarkets(moduleIdToProxy(2))\\n    function moduleIdToProxy(uint moduleId) external view returns (address) {\\n        return proxyLookup[moduleId];\\n    }\\n\\n    function dispatch() external {\\n        uint32 moduleId = trustedSenders[msg.sender].moduleId;\\n        address moduleImpl = trustedSenders[msg.sender].moduleImpl;\\n\\n        require(moduleId != 0, \\\"e/sender-not-trusted\\\");\\n\\n        if (moduleImpl == address(0)) moduleImpl = moduleLookup[moduleId];\\n\\n        uint msgDataLength = msg.data.length;\\n        require(msgDataLength >= (4 + 4 + 20), \\\"e/input-too-short\\\");\\n\\n        assembly {\\n            let payloadSize := sub(calldatasize(), 4)\\n            calldatacopy(0, 4, payloadSize)\\n            mstore(payloadSize, shl(96, caller()))\\n\\n            let result := delegatecall(gas(), moduleImpl, 0, add(payloadSize, 20), 0, 0)\\n\\n            returndatacopy(0, 0, returndatasize())\\n\\n            switch result\\n                case 0 { revert(0, returndatasize()) }\\n                default { return(0, returndatasize()) }\\n        }\\n    }\\n}\\n\"\r\n    },\r\n    \"contracts/Base.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n//import \\\"hardhat/console.sol\\\"; // DEV_MODE\\n\\nimport \\\"./Storage.sol\\\";\\nimport \\\"./Events.sol\\\";\\nimport \\\"./Proxy.sol\\\";\\n\\nabstract contract Base is Storage, Events {\\n    // Modules\\n\\n    function _createProxy(uint proxyModuleId) internal returns (address) {\\n        require(proxyModuleId != 0, \\\"e/create-proxy/invalid-module\\\");\\n        require(proxyModuleId <= MAX_EXTERNAL_MODULEID, \\\"e/create-proxy/internal-module\\\");\\n\\n        // If we've already created a proxy for a single-proxy module, just return it:\\n\\n        if (proxyLookup[proxyModuleId] != address(0)) return proxyLookup[proxyModuleId];\\n\\n        // Otherwise create a proxy:\\n\\n        address proxyAddr = address(new Proxy());\\n\\n        if (proxyModuleId <= MAX_EXTERNAL_SINGLE_PROXY_MODULEID) proxyLookup[proxyModuleId] = proxyAddr;\\n\\n        trustedSenders[proxyAddr] = TrustedSenderInfo({ moduleId: uint32(proxyModuleId), moduleImpl: address(0) });\\n\\n        emit ProxyCreated(proxyAddr, proxyModuleId);\\n\\n        return proxyAddr;\\n    }\\n\\n    function callInternalModule(uint moduleId, bytes memory input) internal returns (bytes memory) {\\n        (bool success, bytes memory result) = moduleLookup[moduleId].delegatecall(input);\\n        if (!success) revertBytes(result);\\n        return result;\\n    }\\n\\n\\n\\n    // Modifiers\\n\\n    modifier nonReentrant() {\\n        require(reentrancyLock == REENTRANCYLOCK__UNLOCKED, \\\"e/reentrancy\\\");\\n\\n        reentrancyLock = REENTRANCYLOCK__LOCKED;\\n        _;\\n        reentrancyLock = REENTRANCYLOCK__UNLOCKED;\\n    }\\n\\n    modifier reentrantOK() { // documentation only\\n        _;\\n    }\\n\\n    // WARNING: Must be very careful with this modifier. It resets the free memory pointer\\n    // to the value it was when the function started. This saves gas if more memory will\\n    // be allocated in the future. However, if the memory will be later referenced\\n    // (for example because the function has returned a pointer to it) then you cannot\\n    // use this modifier.\\n\\n    modifier FREEMEM() {\\n        uint origFreeMemPtr;\\n\\n        assembly {\\n            origFreeMemPtr := mload(0x40)\\n        }\\n\\n        _;\\n\\n        /*\\n        assembly { // DEV_MODE: overwrite the freed memory with garbage to detect bugs\\n            let garbage := 0xDEADBEEFDEADBEEFDEADBEEFDEADBEEFDEADBEEFDEADBEEFDEADBEEFDEADBEEF\\n            for { let i := origFreeMemPtr } lt(i, mload(0x40)) { i := add(i, 32) } { mstore(i, garbage) }\\n        }\\n        */\\n\\n        assembly {\\n            mstore(0x40, origFreeMemPtr)\\n        }\\n    }\\n\\n\\n\\n    // Error handling\\n\\n    function revertBytes(bytes memory errMsg) internal pure {\\n        if (errMsg.length > 0) {\\n            assembly {\\n                revert(add(32, errMsg), mload(errMsg))\\n            }\\n        }\\n\\n        revert(\\\"e/empty-error\\\");\\n    }\\n}\\n\"\r\n    },\r\n    \"contracts/Storage.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Constants.sol\\\";\\n\\nabstract contract Storage is Constants {\\n    // Dispatcher and upgrades\\n\\n    uint reentrancyLock;\\n\\n    address upgradeAdmin;\\n    address governorAdmin;\\n\\n    mapping(uint => address) moduleLookup; // moduleId => module implementation\\n    mapping(uint => address) proxyLookup; // moduleId => proxy address (only for single-proxy modules)\\n\\n    struct TrustedSenderInfo {\\n        uint32 moduleId; // 0 = un-trusted\\n        address moduleImpl; // only non-zero for external single-proxy modules\\n    }\\n\\n    mapping(address => TrustedSenderInfo) trustedSenders; // sender address => moduleId (0 = un-trusted)\\n\\n\\n\\n    // Account-level state\\n    // Sub-accounts are considered distinct accounts\\n\\n    struct AccountStorage {\\n        // Packed slot: 1 + 5 + 4 + 20 = 30\\n        uint8 deferLiquidityStatus;\\n        uint40 lastAverageLiquidityUpdate;\\n        uint32 numMarketsEntered;\\n        address firstMarketEntered;\\n\\n        uint averageLiquidity;\\n        address averageLiquidityDelegate;\\n    }\\n\\n    mapping(address => AccountStorage) accountLookup;\\n    mapping(address => address[MAX_POSSIBLE_ENTERED_MARKETS]) marketsEntered;\\n\\n\\n\\n    // Markets and assets\\n\\n    struct AssetConfig {\\n        // Packed slot: 20 + 1 + 4 + 4 + 3 = 32\\n        address eTokenAddress;\\n        bool borrowIsolated;\\n        uint32 collateralFactor;\\n        uint32 borrowFactor;\\n        uint24 twapWindow;\\n    }\\n\\n    struct UserAsset {\\n        uint112 balance;\\n        uint144 owed;\\n\\n        uint interestAccumulator;\\n    }\\n\\n    struct AssetStorage {\\n        // Packed slot: 5 + 1 + 4 + 12 + 4 + 2 + 4 = 32\\n        uint40 lastInterestAccumulatorUpdate;\\n        uint8 underlyingDecimals; // Not dynamic, but put here to live in same storage slot\\n        uint32 interestRateModel;\\n        int96 interestRate;\\n        uint32 reserveFee;\\n        uint16 pricingType;\\n        uint32 pricingParameters;\\n\\n        address underlying;\\n        uint96 reserveBalance;\\n\\n        address dTokenAddress;\\n\\n        uint112 totalBalances;\\n        uint144 totalBorrows;\\n\\n        uint interestAccumulator;\\n\\n        mapping(address => UserAsset) users;\\n\\n        mapping(address => mapping(address => uint)) eTokenAllowance;\\n        mapping(address => mapping(address => uint)) dTokenAllowance;\\n    }\\n\\n    mapping(address => AssetConfig) internal underlyingLookup; // underlying => AssetConfig\\n    mapping(address => AssetStorage) internal eTokenLookup; // EToken => AssetStorage\\n    mapping(address => address) internal dTokenLookup; // DToken => EToken\\n    mapping(address => address) internal pTokenLookup; // PToken => underlying\\n    mapping(address => address) internal reversePTokenLookup; // underlying => PToken\\n}\\n\"\r\n    },\r\n    \"contracts/Events.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\nimport \\\"./Storage.sol\\\";\\n\\nabstract contract Events {\\n    event Genesis();\\n\\n\\n    event ProxyCreated(address indexed proxy, uint moduleId);\\n    event MarketActivated(address indexed underlying, address indexed eToken, address indexed dToken);\\n    event PTokenActivated(address indexed underlying, address indexed pToken);\\n\\n    event EnterMarket(address indexed underlying, address indexed account);\\n    event ExitMarket(address indexed underlying, address indexed account);\\n\\n    event Deposit(address indexed underlying, address indexed account, uint amount);\\n    event Withdraw(address indexed underlying, address indexed account, uint amount);\\n    event Borrow(address indexed underlying, address indexed account, uint amount);\\n    event Repay(address indexed underlying, address indexed account, uint amount);\\n\\n    event Liquidation(address indexed liquidator, address indexed violator, address indexed underlying, address collateral, uint repay, uint yield, uint healthScore, uint baseDiscount, uint discount);\\n\\n    event TrackAverageLiquidity(address indexed account);\\n    event UnTrackAverageLiquidity(address indexed account);\\n    event DelegateAverageLiquidity(address indexed account, address indexed delegate);\\n\\n    event PTokenWrap(address indexed underlying, address indexed account, uint amount);\\n    event PTokenUnWrap(address indexed underlying, address indexed account, uint amount);\\n\\n    event AssetStatus(address indexed underlying, uint totalBalances, uint totalBorrows, uint96 reserveBalance, uint poolSize, uint interestAccumulator, int96 interestRate, uint timestamp);\\n\\n\\n    event RequestDeposit(address indexed account, uint amount);\\n    event RequestWithdraw(address indexed account, uint amount);\\n    event RequestMint(address indexed account, uint amount);\\n    event RequestBurn(address indexed account, uint amount);\\n    event RequestTransferEToken(address indexed from, address indexed to, uint amount);\\n\\n    event RequestBorrow(address indexed account, uint amount);\\n    event RequestRepay(address indexed account, uint amount);\\n    event RequestTransferDToken(address indexed from, address indexed to, uint amount);\\n\\n    event RequestLiquidate(address indexed liquidator, address indexed violator, address indexed underlying, address collateral, uint repay, uint minYield);\\n\\n\\n    event InstallerSetUpgradeAdmin(address indexed newUpgradeAdmin);\\n    event InstallerSetGovernorAdmin(address indexed newGovernorAdmin);\\n    event InstallerInstallModule(uint indexed moduleId, address indexed moduleImpl, bytes32 moduleGitCommit);\\n\\n\\n    event GovSetAssetConfig(address indexed underlying, Storage.AssetConfig newConfig);\\n    event GovSetIRM(address indexed underlying, uint interestRateModel, bytes resetParams);\\n    event GovSetPricingConfig(address indexed underlying, uint16 newPricingType, uint32 newPricingParameter);\\n    event GovSetReserveFee(address indexed underlying, uint32 newReserveFee);\\n    event GovConvertReserves(address indexed underlying, address indexed recipient, uint amount);\\n\\n    event RequestSwap(address indexed accountIn, address indexed accountOut, address indexed underlyingIn, address underlyingOut, uint amount, uint swapType);\\n}\\n\"\r\n    },\r\n    \"contracts/Proxy.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\ncontract Proxy {\\n    address immutable creator;\\n\\n    constructor() {\\n        creator = msg.sender;\\n    }\\n\\n    // External interface\\n\\n    fallback() external {\\n        address creator_ = creator;\\n\\n        if (msg.sender == creator_) {\\n            assembly {\\n                mstore(0, 0)\\n                calldatacopy(31, 0, calldatasize())\\n\\n                switch mload(0) // numTopics\\n                    case 0 { log0(32,  sub(calldatasize(), 1)) }\\n                    case 1 { log1(64,  sub(calldatasize(), 33),  mload(32)) }\\n                    case 2 { log2(96,  sub(calldatasize(), 65),  mload(32), mload(64)) }\\n                    case 3 { log3(128, sub(calldatasize(), 97),  mload(32), mload(64), mload(96)) }\\n                    case 4 { log4(160, sub(calldatasize(), 129), mload(32), mload(64), mload(96), mload(128)) }\\n                    default { revert(0, 0) }\\n\\n                return(0, 0)\\n            }\\n        } else {\\n            assembly {\\n                mstore(0, 0xe9c4a3ac00000000000000000000000000000000000000000000000000000000) // dispatch() selector\\n                calldatacopy(4, 0, calldatasize())\\n                mstore(add(4, calldatasize()), shl(96, caller()))\\n\\n                let result := call(gas(), creator_, 0, 0, add(24, calldatasize()), 0, 0)\\n                returndatacopy(0, 0, returndatasize())\\n\\n                switch result\\n                    case 0 { revert(0, returndatasize()) }\\n                    default { return(0, returndatasize()) }\\n            }\\n        }\\n    }\\n}\\n\"\r\n    },\r\n    \"contracts/Constants.sol\": {\r\n      \"content\": \"// SPDX-License-Identifier: GPL-2.0-or-later\\n\\npragma solidity ^0.8.0;\\n\\nabstract contract Constants {\\n    // Universal\\n\\n    uint internal constant SECONDS_PER_YEAR = 365.2425 * 86400; // Gregorian calendar\\n\\n\\n    // Protocol parameters\\n\\n    uint internal constant MAX_SANE_AMOUNT = type(uint112).max;\\n    uint internal constant MAX_SANE_SMALL_AMOUNT = type(uint96).max;\\n    uint internal constant MAX_SANE_DEBT_AMOUNT = type(uint144).max;\\n    uint internal constant INTERNAL_DEBT_PRECISION = 1e9;\\n    uint internal constant MAX_ENTERED_MARKETS = 10; // per sub-account\\n    uint internal constant MAX_POSSIBLE_ENTERED_MARKETS = 2**32; // limited by size of AccountStorage.numMarketsEntered\\n    uint internal constant CONFIG_FACTOR_SCALE = 4_000_000_000; // must fit into a uint32\\n    uint internal constant RESERVE_FEE_SCALE = 4_000_000_000; // must fit into a uint32\\n    uint32 internal constant DEFAULT_RESERVE_FEE = uint32(0.23 * 4_000_000_000);\\n    uint internal constant INITIAL_INTEREST_ACCUMULATOR = 1e27;\\n    uint internal constant AVERAGE_LIQUIDITY_PERIOD = 24 * 60 * 60;\\n    uint16 internal constant MIN_UNISWAP3_OBSERVATION_CARDINALITY = 10;\\n    uint24 internal constant DEFAULT_TWAP_WINDOW_SECONDS = 30 * 60;\\n    uint32 internal constant DEFAULT_BORROW_FACTOR = uint32(0.28 * 4_000_000_000);\\n\\n\\n    // Implementation internals\\n\\n    uint internal constant REENTRANCYLOCK__UNLOCKED = 1;\\n    uint internal constant REENTRANCYLOCK__LOCKED = 2;\\n\\n    uint8 internal constant DEFERLIQUIDITY__NONE = 0;\\n    uint8 internal constant DEFERLIQUIDITY__CLEAN = 1;\\n    uint8 internal constant DEFERLIQUIDITY__DIRTY = 2;\\n\\n\\n    // Pricing types\\n\\n    uint16 internal constant PRICINGTYPE__PEGGED = 1;\\n    uint16 internal constant PRICINGTYPE__UNISWAP3_TWAP = 2;\\n    uint16 internal constant PRICINGTYPE__FORWARDED = 3;\\n\\n\\n    // Modules\\n\\n    // Public single-proxy modules\\n    uint internal constant MODULEID__INSTALLER = 1;\\n    uint internal constant MODULEID__MARKETS = 2;\\n    uint internal constant MODULEID__LIQUIDATION = 3;\\n    uint internal constant MODULEID__GOVERNANCE = 4;\\n    uint internal constant MODULEID__EXEC = 5;\\n    uint internal constant MODULEID__SWAP = 6;\\n\\n    uint internal constant MAX_EXTERNAL_SINGLE_PROXY_MODULEID = 499_999;\\n\\n    // Public multi-proxy modules\\n    uint internal constant MODULEID__ETOKEN = 500_000;\\n    uint internal constant MODULEID__DTOKEN = 500_001;\\n\\n    uint internal constant MAX_EXTERNAL_MODULEID = 999_999;\\n\\n    // Internal modules\\n    uint internal constant MODULEID__RISK_MANAGER = 1_000_000;\\n\\n    // Interest rate models\\n    //   Default for new markets\\n    uint internal constant MODULEID__IRM_DEFAULT = 2_000_000;\\n    //   Testing-only\\n    uint internal constant MODULEID__IRM_ZERO = 2_000_001;\\n    uint internal constant MODULEID__IRM_FIXED = 2_000_002;\\n    uint internal constant MODULEID__IRM_LINEAR = 2_000_100;\\n    //   Classes\\n    uint internal constant MODULEID__IRM_CLASS__STABLE = 2_000_500;\\n    uint internal constant MODULEID__IRM_CLASS__MAJOR = 2_000_501;\\n    uint internal constant MODULEID__IRM_CLASS__MIDCAP = 2_000_502;\\n\\n    // Swap types\\n    uint internal constant SWAP_TYPE__UNI_EXACT_INPUT_SINGLE = 1;\\n    uint internal constant SWAP_TYPE__UNI_EXACT_INPUT = 2;\\n    uint internal constant SWAP_TYPE__UNI_EXACT_OUTPUT_SINGLE = 3;\\n    uint internal constant SWAP_TYPE__UNI_EXACT_OUTPUT = 4;\\n    uint internal constant SWAP_TYPE__1INCH = 5;\\n}\\n\"\r\n    }\r\n  },\r\n  \"settings\": {\r\n    \"optimizer\": {\r\n      \"enabled\": true,\r\n      \"runs\": 1000000\r\n    },\r\n    \"outputSelection\": {\r\n      \"*\": {\r\n        \"*\": [\r\n          \"evm.bytecode\",\r\n          \"evm.deployedBytecode\",\r\n          \"devdoc\",\r\n          \"userdoc\",\r\n          \"metadata\",\r\n          \"abi\"\r\n        ]\r\n      }\r\n    },\r\n    \"libraries\": {}\r\n  }\r\n}}",
+      "abi": [
+        {
+          "inputs": [
+            {
+              "internalType": "address",
+              "name": "admin",
+              "type": "address"
+            },
+            {
+              "internalType": "address",
+              "name": "installerModule",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "nonpayable",
+          "type": "constructor"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "totalBalances",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "totalBorrows",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint96",
+              "name": "reserveBalance",
+              "type": "uint96"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "poolSize",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "interestAccumulator",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "int96",
+              "name": "interestRate",
+              "type": "int96"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "timestamp",
+              "type": "uint256"
+            }
+          ],
+          "name": "AssetStatus",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Borrow",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "delegate",
+              "type": "address"
+            }
+          ],
+          "name": "DelegateAverageLiquidity",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Deposit",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "EnterMarket",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "ExitMarket",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [],
+          "name": "Genesis",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "recipient",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "GovConvertReserves",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "components": [
+                {
+                  "internalType": "address",
+                  "name": "eTokenAddress",
+                  "type": "address"
+                },
+                {
+                  "internalType": "bool",
+                  "name": "borrowIsolated",
+                  "type": "bool"
+                },
+                {
+                  "internalType": "uint32",
+                  "name": "collateralFactor",
+                  "type": "uint32"
+                },
+                {
+                  "internalType": "uint32",
+                  "name": "borrowFactor",
+                  "type": "uint32"
+                },
+                {
+                  "internalType": "uint24",
+                  "name": "twapWindow",
+                  "type": "uint24"
+                }
+              ],
+              "indexed": false,
+              "internalType": "struct Storage.AssetConfig",
+              "name": "newConfig",
+              "type": "tuple"
+            }
+          ],
+          "name": "GovSetAssetConfig",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "interestRateModel",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes",
+              "name": "resetParams",
+              "type": "bytes"
+            }
+          ],
+          "name": "GovSetIRM",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint16",
+              "name": "newPricingType",
+              "type": "uint16"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint32",
+              "name": "newPricingParameter",
+              "type": "uint32"
+            }
+          ],
+          "name": "GovSetPricingConfig",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint32",
+              "name": "newReserveFee",
+              "type": "uint32"
+            }
+          ],
+          "name": "GovSetReserveFee",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "uint256",
+              "name": "moduleId",
+              "type": "uint256"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "moduleImpl",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "bytes32",
+              "name": "moduleGitCommit",
+              "type": "bytes32"
+            }
+          ],
+          "name": "InstallerInstallModule",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newGovernorAdmin",
+              "type": "address"
+            }
+          ],
+          "name": "InstallerSetGovernorAdmin",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "newUpgradeAdmin",
+              "type": "address"
+            }
+          ],
+          "name": "InstallerSetUpgradeAdmin",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "liquidator",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "violator",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "collateral",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "repay",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "yield",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "healthScore",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "baseDiscount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "discount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Liquidation",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "eToken",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "dToken",
+              "type": "address"
+            }
+          ],
+          "name": "MarketActivated",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "pToken",
+              "type": "address"
+            }
+          ],
+          "name": "PTokenActivated",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "PTokenUnWrap",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "PTokenWrap",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "proxy",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "moduleId",
+              "type": "uint256"
+            }
+          ],
+          "name": "ProxyCreated",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Repay",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestBorrow",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestBurn",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestDeposit",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "liquidator",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "violator",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "collateral",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "repay",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "minYield",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestLiquidate",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestMint",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestRepay",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "accountIn",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "accountOut",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlyingIn",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "underlyingOut",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "swapType",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestSwap",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestTransferDToken",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "from",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "to",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestTransferEToken",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "RequestWithdraw",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "TrackAverageLiquidity",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            }
+          ],
+          "name": "UnTrackAverageLiquidity",
+          "type": "event"
+        },
+        {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "underlying",
+              "type": "address"
+            },
+            {
+              "indexed": true,
+              "internalType": "address",
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "amount",
+              "type": "uint256"
+            }
+          ],
+          "name": "Withdraw",
+          "type": "event"
+        },
+        {
+          "inputs": [],
+          "name": "dispatch",
+          "outputs": [],
+          "stateMutability": "nonpayable",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "moduleId",
+              "type": "uint256"
+            }
+          ],
+          "name": "moduleIdToImplementation",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [
+            {
+              "internalType": "uint256",
+              "name": "moduleId",
+              "type": "uint256"
+            }
+          ],
+          "name": "moduleIdToProxy",
+          "outputs": [
+            {
+              "internalType": "address",
+              "name": "",
+              "type": "address"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        },
+        {
+          "inputs": [],
+          "name": "name",
+          "outputs": [
+            {
+              "internalType": "string",
+              "name": "",
+              "type": "string"
+            }
+          ],
+          "stateMutability": "view",
+          "type": "function"
+        }
+      ]
+    }
+  },
+  "related_window": null
+}

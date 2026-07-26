@@ -56,6 +56,12 @@ export default function RootLayout({
               audit
             </Link>
             <Link
+              href="/forensics"
+              className="font-mono text-xs text-[#8892a4] hover:text-[#c8d0e7] transition-colors duration-150"
+            >
+              forensics
+            </Link>
+            <Link
               href="/attestations"
               className="font-mono text-xs text-[#8892a4] hover:text-[#c8d0e7] transition-colors duration-150"
             >

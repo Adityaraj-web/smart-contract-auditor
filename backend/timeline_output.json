@@ -1,0 +1,754 @@
+{
+  "main_transaction": {
+    "tx_hash": "0xc310a0affe2169d1f6feec1c63dbc7f7c62a887fa48795d327d4d2da2d6b111d",
+    "chain": "mainnet",
+    "block_number": 16817996,
+    "block_timestamp": 1678697459,
+    "from_address": "0x5f259d0b76665c337c6104145894f4d1d2758b8c",
+    "to_address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+    "status": "0x1"
+  },
+  "internal_call_sequence": [
+    {
+      "from_address": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+      "to_address": "",
+      "value_wei": 0,
+      "contract_address": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+      "input_data": "",
+      "call_type": "create",
+      "gas": 9236366,
+      "gas_used": 982878,
+      "is_error": false,
+      "err_code": null,
+      "sequence_index": 0
+    },
+    {
+      "from_address": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+      "to_address": "",
+      "value_wei": 0,
+      "contract_address": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+      "input_data": "",
+      "call_type": "create",
+      "gas": 9060037,
+      "gas_used": 408243,
+      "is_error": false,
+      "err_code": null,
+      "sequence_index": 1
+    }
+  ],
+  "log_sequence": [
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+        "dst": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "wad": 30000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 0
+    },
+    {
+      "event_name": "Approval",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "guy": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+        "wad": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 1
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "dst": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "wad": 30000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 2
+    },
+    {
+      "event_name": "Approval",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "guy": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "wad": 115792089237316195423570985008687907853269984665640564039457584007913129639935
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 3
+    },
+    {
+      "event_name": "RequestDeposit",
+      "standard": "verified_abi",
+      "args": {
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 20000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 4
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "dst": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "wad": 20000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 5
+    },
+    {
+      "event_name": "Deposit",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 19568124398774981141467060
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 6
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "value": 19568124398774981141467060
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 7
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 30974635952823022870091233,
+        "totalBorrows": 2753750051939716739802301,
+        "reserveBalance": 192726706131943046318424,
+        "poolSize": 28904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 135135035241006816,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 8
+    },
+    {
+      "event_name": "RequestMint",
+      "standard": "verified_abi",
+      "args": {
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 200000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 9
+    },
+    {
+      "event_name": "Deposit",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 195681243987749811414670603
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 10
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "value": 195681243987749811414670603
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 11
+    },
+    {
+      "event_name": "EnterMarket",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72"
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 12
+    },
+    {
+      "event_name": "Borrow",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 200000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 13
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "value": 200000000000000000000000000
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 14
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 226655879940572834284761836,
+        "totalBorrows": 202753750051939716739802301,
+        "reserveBalance": 192726706131943046318424,
+        "poolSize": 28904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 9037248049801668407,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 15
+    },
+    {
+      "event_name": "RequestRepay",
+      "standard": "verified_abi",
+      "args": {
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 10000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 16
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "dst": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "wad": 10000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 17
+    },
+    {
+      "event_name": "Repay",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 10000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 18
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "to": "0x0000000000000000000000000000000000000000",
+        "value": 10000000000000000000000000
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 19
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 226655879940572834284761836,
+        "totalBorrows": 192753750051939716739802301,
+        "reserveBalance": 192726706131943046318424,
+        "poolSize": 38904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 4564688997383176420,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 20
+    },
+    {
+      "event_name": "RequestMint",
+      "standard": "verified_abi",
+      "args": {
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 200000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 21
+    },
+    {
+      "event_name": "Deposit",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 195681243987749811414670603
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 22
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "value": 195681243987749811414670603
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 23
+    },
+    {
+      "event_name": "Borrow",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 200000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 24
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "value": 200000000000000000000000000
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 25
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 422337123928322645699432439,
+        "totalBorrows": 392753750051939716739802301,
+        "reserveBalance": 192726706131943046318424,
+        "poolSize": 38904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 12626747518905976517,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 26
+    },
+    {
+      "event_name": null,
+      "standard": null,
+      "args": null,
+      "decode_method": "undecoded",
+      "raw_topic0": "0x1e090bfa40abafd9102cc09ab955b704519a275c8e78b2549f66c1b4439ce9d7",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 27
+    },
+    {
+      "event_name": "Withdraw",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 100000000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 28
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "to": "0x0000000000000000000000000000000000000000",
+        "value": 100000000000000000000000000
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 29
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 422337123928322645699432439,
+        "totalBorrows": 392753750051939716739802301,
+        "reserveBalance": 100192726706131943046318424,
+        "poolSize": 38904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 12626747518905976517,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 30
+    },
+    {
+      "event_name": "RequestLiquidate",
+      "standard": "verified_abi",
+      "args": {
+        "liquidator": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "violator": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "collateral": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "repay": 259319058410413226611199998,
+        "minYield": 317792863738251503199999999
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 31
+    },
+    {
+      "event_name": "EnterMarket",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b"
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 32
+    },
+    {
+      "event_name": "Repay",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 254234370990601202559999999
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 33
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "to": "0x0000000000000000000000000000000000000000",
+        "value": 254234370990601202559999999
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 34
+    },
+    {
+      "event_name": "Borrow",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "amount": 254234370990601202559999999
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 35
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "value": 254234370990601202559999999
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 36
+    },
+    {
+      "event_name": "Borrow",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "amount": 5084687419812024051199999
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 37
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "value": 5084687419812024051199999
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x6085bc95f506c326dcbcd7a6dd6c79fbc18d4686",
+      "log_index": 38
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 427312013726311039362846413,
+        "totalBorrows": 397838437471751740791002300,
+        "reserveBalance": 105167616504120336709732398,
+        "poolSize": 38904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 12735465699552364482,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 39
+    },
+    {
+      "event_name": "Withdraw",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "amount": 310930612374274603970808264
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 40
+    },
+    {
+      "event_name": "Deposit",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "amount": 310930612374274603970808264
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 41
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "to": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "value": 310930612374274603970808264
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 42
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 427312013726311039362846413,
+        "totalBorrows": 397838437471751740791002300,
+        "reserveBalance": 105167616504120336709732398,
+        "poolSize": 38904507348306697267428294,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 12735465699552364482,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 43
+    },
+    {
+      "event_name": "Liquidation",
+      "standard": "verified_abi",
+      "args": {
+        "liquidator": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "violator": "0x583c21631c48d442b5c0e605d624f54a0b366c72",
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "collateral": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "repay": 254234370990601202559999999,
+        "yield": 317792963738251503199999998,
+        "healthScore": 750978642951301046,
+        "baseDiscount": 269021357048698954,
+        "discount": 200000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 44
+    },
+    {
+      "event_name": "RequestWithdraw",
+      "standard": "verified_abi",
+      "args": {
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "amount": 38904507348306697267428294
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 45
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+        "dst": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "wad": 38904507348306697267428294
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 46
+    },
+    {
+      "event_name": "Withdraw",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "account": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "amount": 38064411973236041314928395
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 47
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "to": "0x0000000000000000000000000000000000000000",
+        "value": 38064411973236041314928395
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0xe025e3ca2be02316033184551d4d3aa22024d9dc",
+      "log_index": 48
+    },
+    {
+      "event_name": "AssetStatus",
+      "standard": "verified_abi",
+      "args": {
+        "underlying": "0x6b175474e89094c44da98b954eedeac495271d0f",
+        "totalBalances": 389247601753074998047918018,
+        "totalBorrows": 397838437471751740791002300,
+        "reserveBalance": 105167616504120336709732398,
+        "poolSize": 0,
+        "interestAccumulator": 1050489571784058043196281835,
+        "interestRate": 21964959707846776401,
+        "timestamp": 1678697459
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x27182842e098f60e3d576794a5bffb0777e025d3",
+      "log_index": 49
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0xa0b3ee897f233f385e5d61086c32685257d4f12b",
+        "dst": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "wad": 38904507348306697267428294
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 50
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "ERC-20",
+      "args": {
+        "from": "0x0000000000000000000000000000000000000000",
+        "to": "0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c",
+        "value": 37049690136868391
+      },
+      "decode_method": "known_signature",
+      "contract_address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+      "log_index": 51
+    },
+    {
+      "event_name": null,
+      "standard": null,
+      "args": null,
+      "decode_method": "undecoded",
+      "raw_topic0": "0x4c209b5fc8ad50758f13e2e1088ba56a560dff690a1c6fef26394f4c03821c4f",
+      "contract_address": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+      "log_index": 52
+    },
+    {
+      "event_name": null,
+      "standard": null,
+      "args": null,
+      "decode_method": "undecoded",
+      "raw_topic0": "0x804c9b842b2748a22bb64b345453a3de7ca54a6ca45ce00d415894979e22897a",
+      "contract_address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+      "log_index": 53
+    },
+    {
+      "event_name": "Transfer",
+      "standard": "verified_abi",
+      "args": {
+        "src": "0xebc29199c817dc47ba12e3f86102564d640cbf99",
+        "dst": "0x028171bca77440897b824ca71d1c56cac55b68a3",
+        "wad": 30027000000000000000000000
+      },
+      "decode_method": "verified_abi",
+      "contract_address": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "log_index": 54
+    },
+    {
+      "event_name": null,
+      "standard": null,
+      "args": null,
+      "decode_method": "undecoded",
+      "raw_topic0": "0x631042c832b07452973831137f2d73e395028b44b250dedc5abb0ee766e168ac",
+      "contract_address": "0x7d2768de32b0b80b7a3454c06bdac94a69ddc7a9",
+      "log_index": 55
+    }
+  ],
+  "decode_summary": {
+    "total_logs": 56,
+    "verified_abi_decoded": 39,
+    "known_signature_decoded": 13,
+    "undecoded": 4
+  },
+  "related_window": null,
+  "limitations": [
+    "internal_call_sequence and log_sequence are two independently-ordered tracks, not a single merged timeline: there is no shared ordinal key between Etherscan's internal-transaction trace order and log-index order that would allow safely interleaving them without guessing.",
+    "Only non-zero-value internal calls are captured. Zero-value internal calls (common in token-accounting-only exploit steps) are absent from this list and must be inferred from decoded event logs instead."
+  ]
+}
